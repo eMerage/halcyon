@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="hello">Hello World, CBMainActivity!</string>
+    <string name="app_name">CBHalcyon 1.1.0</string>
+    <string name="user_name">User Name</string>
+    <string name="sign_in">Sign In</string>
+    <string name="cancel">Cancel</string>
+    <string name="atch_db">Attach DB</string>
+    <string name="password">Password</string>
+    <string name="customer_image">Customer image</string>
+    <string name="cb_logo">CB Logo Image</string>
+    <string name="last_invoice">Last Invoice</string>
+    <string name="telephone">Telephone</string>
+    <string name="address">Address</string>
+    <string name="invoice_number">Invoice No.</string>
+    <string name="invoice_value">Invoice Value</string>
+    <string name="target">Target</string>
+    <string name="variance">Variance</string>
+    <string name="remarks">Remarks</string>
+    <string name="view_customer">View Customer</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="rep_attendence">Rep Attendence</string>
+    <string name="add_selected_to_itinerary">Add Selected to Itinerary</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="area">Area</string>
+    <string name="town">Town</string>
+    <string name="district">District</string>
+    <string name="fax">Fax</string>
+    <string name="customer_status">Customer Status</string>
+    <string name="email">Email</string>
+    <string name="web">Web</string>
+    <string name="br_no">BR No</string>
+    <string name="owner_contact">Owner Contact</string>
+    <string name="owner_wife_bday">Spouses\'s B\'day</string>
+    <string name="pharmacist_name">Pharamcist Name</string>
+    <string name="purchasing_officer">Purchasing Officer</string>
+    <string name="no_of_staff">No. of Staff</string>
+    <string name="save">Save</string>
+    <string name="view_existing">View Existing</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="add_extra_customer">Add Extra Customer</string>
+    <string name="date">Date</string>
+    <string name="done">Done</string>
+    <string name="search">Search</string>
+    <string name="pharmacy_reg_no">Pharmacy Registry no</string>
+    <string name="select">Select</string>
+    <string name="principle">Principle</string>
+    <string name="total_rupees_colon">Total (Rs.):</string>
+    <string name="batch">Batch</string>
+    <string name="normal_qty">Normal Qty</string>
+    <string name="image">Image</string>
+    <string name="total_value">Total Value</string>
+    <string name="settings">Settings</string>
+    <string name="reason">Reason</string>
+    <string name="return_product">Return Product</string>
+    <string name="take_pic_info">Press image to go to gallery</string>
+    <string name="preference">Preference</string>
+    <string name="pharmacy_registration_no">Reg. No.</string>
+    <string name="price_list">Price List</string>
+    <string name="customer_name_colon">Customer Name:</string>
+    <string name="gallery">Gallery</string>
+    <string name="calendar">Calendar</string>
+    <string name="save_shelf_qty">Save Shelf Qty</string>
+    <string name="delete_returns">Delete returns</string>
+
+    <!-- General -->
+    <string name="invoice_title">Invoice</string>
+    <string name="generate_invoice">Generate Invoice</string>
+
+    <!-- invoice_gen_1 -->
+    <string name="invoiced_items">Invoiced Items</string>
+    <string name="product_code_colon">Pro. Code:</string>
+    <string name="product_description">Pr. Desc.</string>
+    <string name="request_qty">Request Qty</string>
+    <string name="normal">Normal</string>
+    <string name="free">Free</string>
+    <string name="discount_colon">Discount:</string>
+    <string name="discount">Discount</string>
+    <string name="unit_price">Unit Price</string>
+    <string name="total_qty_colon">Total Qty:</string>
+    <string name="total_value_colon">Total Value:</string>
+    <string name="current_stock_colon">Current Stock:</string>
+    <string name="expiry_date_colon">Exp:</string>
+    <string name="last_invoice_qty_colon">Last Inv Qty:</string>
+    <string name="last_three_month_average_qty_colon">L3MA:</string>
+    <string name="next">Next</string>
+    <string name="selected_products">Selected Products</string>
+    <string name="price_colon">Price:</string>
+    <string name="batch_colon">Batch:</string>
+    <string name="quantity_colon">Quantity:</string>
+    <string name="free_colon">Free:</string>
+    <string name="normal_colon">Normal:</string>
+    <string name="shelf_quantity">Shelf Qty.</string>
+    <string name="invoiced_product">Invoice Product</string>
+
+    <!-- customer_itinerary_list -->
+    <string name="day_target_colon">Day Target:</string>
+    <string name="invoice_value_colon">Invoice Value:</string>
+    <string name="variance_colon">Variance:</string>
+    <string name="variance_percentage_colon">Variance(%):</string>
+
+    <!-- invoice_gen_2 -->
+    <string name="cash">Cash</string>
+    <string name="cheque">Cheque</string>
+    <string name="credit">Credit</string>
+    <string name="remain">Remain</string>
+    <string name="total">Total</string>
+    <string name="market_return">Market Return</string>
+    <string name="percentage">%</string>
+    <string name="need_to_pay">Need To Pay</string>
+    <string name="returns">Returns</string>
+    <string name="competitor_products">Competitor Product</string>
+    <string name="invoice_qty">Invoice Qty</string>
+    <string name="discard">Discard</string>
+    <string name="amount">Amount</string>
+    <string name="invoice_no_colon">Invoice No:</string>
+    <string name="invoice_gross">Invoice (Gross)  Rs.</string>
+    <string name="net_invoice_amt">Net Inv. Amt.</string>
+    <string name="net_ret_amt">Net Ret. Amt.</string>
+    <string name="net_payable">Net Payable</string>
+    <string name="return_gross">Return (Gross)</string>
+    <string name="cheque_number">Cheque Number</string>
+    <string name="collected_date">Collected Date</string>
+    <string name="realize_date">Realize Date</string>
+    <string name="cheque_amount">Cheque Amount</string>
+    <string name="cheque_number_colon">Cheque Number:</string>
+    <string name="collected_date_colon">Collected Date:</string>
+    <string name="realize_date_colon">Realize Date:</string>
+    <string name="cheque_amount_colon">Cheque Amount:</string>
+
+
+    <!-- invoice_gen_3 -->
+    <string name="invoice_for">Invoice For</string>
+    <string name="quantity">Quantity</string>
+    <string name="total_items">Total Items</string>
+    <string name="print">Print</string>
+    <string name="total_quantity">Total Qty</string>
+
+    <!-- remarks_comments -->
+    <string name="category">Category</string>
+    <string name="comment">Comment</string>
+
+    <!-- Initialize -->
+    <string name="initialize">Initial Setup…</string>
+    <string name="device_id">Device ID</string>
+    <string name="submit">Submit</string>
+
+    <!-- progress_bar -->
+    <string name="loading">loading…</string>
+
+    <!-- Starred Names -->
+    <string name="customer_name_starred">* Customer Name</string>
+    <string name="address_starred">* Address</string>
+    <string name="area_starred">* Zone</string>
+    <string name="town_starred">* Town</string>
+    <string name="district_starred">* District</string>
+    <string name="telephone_starred">* Telephone</string>
+    <string name="br_no_starred">* BR No</string>
+    <string name="customer_status_starred">* Customer Status</string>
+    <string name="Location">* Location</string>
+    <string name="pharmacist_name_starred">* Owner\'s Name</string>
+
+    <!-- Code Strings -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit_prompt">Are you sure you want to Exit</string>
+    <string name="cancel_prompt_unsaved">Changes have not been saved, are you sure you want to Cancel?</string>
+    <string name="warning">Warning</string>
+    <string name="error">Error</string>
+    <string name="invalid_username">Username is Not Valid</string>
+    <string name="password_username_unmatching">Password and Username don not match!</string>
+    <string name="user_locked">User Locked!</string>
+    <string name="database_errror">Theres been an error in the database</string>
+    <string name="required_feilds_empty">Required Feilds marked with a star(*) must be filled!</string>
+    <string name="added_successfully">added successfully</string>
+
+    <!-- returns -->
+    <string name="returns_title">Returns</string>
+    <string name="product">Product</string>
+    <string name="qty">Qty</string>
+    <string name="return_qty">Return Qty</string>
+    <string name="add">Add</string>
+    <string name="save_returns">Save Returns</string>
+    <string name="resalable">Resalable</string>
+    <string name="company_return">Company Return</string>
+    <string name="delete">Delete</string>
+    <string name="code">Code</string>
+    <string name="price">Price</string>
+    <string name="return_value">Return Value</string>
+    <string name="select_all">Select All</string>
+    <string name="de_select_all">Deselect All</string>
+    <string name="clear_all">Clear All</string>
+    <string name="resalable_all">Resalable All</string>
+    <string name="inv_no">Inv. #</string>
+    <string name="ret_qty">Ret. Qty</string>
+
+    <!-- competitor_products -->
+    <string name="competitor_product_title">Competitor Products</string>
+    <string name="company">Company</string>
+    <string name="value">Value</string>
+    <string name="pack_sizes">Pack Sizes</string>
+    <string name="other_info">Other Info.</string>
+    <string name="send_to">Send To</string>
+    <string name="save_and_send">Save and Send</string>
+
+    <!-- invoice_edit_popup -->
+    <string name="add_new_invoice">Add New Invoice</string>
+    <string name="return_product_history_validated">Return Product(history validated)</string>
+    <string name="re_invoice">Re-Invoice</string>
+    <string name="sort_asc">Ascending</string>
+    <string name="sort_desc">Descending</string>
+    <string name="return_invoice">Return Invoice</string>
+
+    <!-- Preferences -->
+    <string name="syncronize">Syncronize</string>
+    <string name="syncronize_info">Set up your syncronize Settings</string>
+    <string name="syncronize_products">Syncronize Products</string>
+    <string name="syncronize_products_info">Update your tablet with the newest products available</string>
+    <string name="syncronize_customers">Syncronize Customers</string>
+    <string name="syncronize_customers_info">Udpdate all customer data on your tablet</string>
+    <string name="syncronize_inventory">Syncronize Inventory</string>
+    <string name="syncronize_inventory_info">Update your inventory</string>
+    <string name="syncronize_itinerary">Syncronize Itinerary</string>
+    <string name="syncronize_itinerary_info">Update your itinerary</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_password_info">Change your login password</string>
+    <string name="backup_database">Back-up Database</string>
+    <string name="backup_database_info">Backup Database to Internal Memory</string>
+    <string name="upload_invoice">Upload Invoices</string>
+    <string name="upload_invoices_info">Upload your invoices</string>
+    <string name="upload_customers">Upload Customers</string>
+    <string name="upload_customers_info">Upload all new customers</string>
+    <string name="upload_returns">Upload Returns</string>
+    <string name="upload_returns_info">Upload all sales returns</string>
+    <string name="enter_mac">Enter MAC address</string>
+    <string name="enter_mac_info">Enter the MAC address of your bluetooth printing device</string>
+    <string name="upload_images">Upload images</string>
+    <string name="upload_images_info">Upload images of customers you have taken</string>
+    <string name="upload_shelf_quantity">Upload Shelf Quantities</string>
+    <string name="upload_shelf_quantity_info">Upload the current stocks that the customers have</string>
+    <string name="upload_invoice_outstanding">Upload Invoice Outstandings</string>
+    <string name="upload_invoice_outstanding_info">Upload your invoice outstanding details</string>
+    <string name="upload_invoice_cheques">Upload Invoice Cheques Details</string>
+    <string name="upload_invoice_cheques_info">Upload your invoice cheques details</string>
+    <string name="upload_product_unloads">Upload Product Unload Details</string>
+    <string name="upload_product_unloads_info">Upload product unload details and check the status</string>
+
+    <string name="enter_last_invoice">Enter last invoice number</string>
+    <string name="enter_last_invoice_info">Enter the next invoice that you want to continue invoicing with</string>
+    <string name="enter_last_customer">Enter last customer number</string>
+    <string name="enter_last_customer_info">Enter the next customer number that you want to continue with</string>
+    <string name="enable_return_without_history">Enable returns without history</string>
+    <string name="enable_return_without_history_info">Enable returning products with no invoice history</string>
+    <string name="enable_cheque_detail_entry">Cheque details</string>
+    <string name="enable_cheque_detail_entry_info">Enable the user to enter cheque details</string>
+    <string name="enable_extra_customer_add">Enable extra customers</string>
+    <string name="enable_extra_customer_add_info">Enable extra customer add to current Itinerary</string>
+    <string name="enable_pre_printed_invoice">Pre-Printed Invoice</string>
+    <string name="enable_pre_printed_invoice_info">Enable Pre-Printed Invoice print format</string>
+    <string name="enable_product_avg">Product Average</string>
+    <string name="enable_product_avg_info">Auto-fill the product avg when invoicing</string>
+    <string name="enter_the_number_of_days_for_back_up_info">Enter the number of days as the back up interval</string>
+    <string name="enter_the_number_of_days_for_back_up">Number of days for backup</string>
+
+    <!-- Product_rep_store -->
+    <string name="rep_name_colon">Rep Name:</string>
+    <string name="search_products">Search Products</string>
+    <string name="search_selected_products">Search Sel. Products</string>
+
+    <!-- price_list -->
+    <string name="export">Export</string>
+    <string name="brand_colon">Brand:</string>
+    <string name="principle_colon">Principle:</string>
+    <string name="pur_price_colon">Pur. Price:</string>
+    <string name="sel_price_colon">Sel. Price:</string>
+    <string name="category_colon">Category:</string>
+    <string name="whole_sale_price_colon">Whole Sale:</string>
+    <string name="retail_price">Ret. Price:</string>
+
+    <!-- colors -->
+    <color name="blue">#0099CC</color>
+    <color name="itinerary_list_selector">#696969</color>
+
+    <!-- change password popup -->
+    <string name="old_password_colon">Old Password:</string>
+    <string name="new_password_colon">New Password:</string>
+    <string name="retype_new_password_colon">Retype New Password:</string>
+    <string name="show_password">Show Password</string>
+
+    <!-- last_invoice -->
+    <string name="invoice_date_colon">Invoice Date:</string>
+
+    <!-- about -->
+    <string name="version_colon">Version:</string>
+    <string name="version">Version</string>
+    <string name="application_name_colon">Application Name:</string>
+    <string name="application_name">Application Name</string>
+    <string name="description_colon">Description:</string>
+    <string name="description">Description</string>
+    <string name="channelbridge_network_stat">Channel Bridge - Network Statistics</string>
+    <string name="uplaoded_colon">Uploaded:</string>
+    <string name="uploaded">Uploaded</string>
+    <string name="downloaded_colon">Downloaded:</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="connected_to_colon">Connected To:</string>
+    <string name="connected_to">Connected To</string>
+    <string name="web_site_colon">Website:</string>
+    <string name="web_site">Website</string>
+    <string name="emerge_web"><a href="http://www.mobitel.lk/">www.mobitel.lk</a></string>
+    <string name="about">About</string>
+    <string name="powered_by_colon">Powered By:</string>
+    <string name="powered_by">Powered By</string>
+    <string name="powered_by_emerge">Mobitel (Pvt) Ltd.</string>
+    <string name="email_colon">Email:</string>
+    <string name="emerge_email">info@mobitel.lk</string>
+    <string name="hotline_colon">Hotline:</string>
+    <string name="hotline">Hotline</string>
+    <string name="emerge_hotline">(+94)711 717 171</string>
+
+
+    <!-- stock_unload -->
+    <string name="unload_qty">Unload Qty</string>
+    <string name="unload">Unload</string>
+    <string name="unload_status">Unload Status</string>
+    <string name="unload_qty_colon">Unload Qty:</string>
+    <string name="unload_history_colon">Unload History</string>
+    <string name="qty_colon">Qty:</string>
+    <string name="date_colon">Date:</string>
+    <string name="close">Close</string>
+
+    <string name="invoice_history">Manage Product Avg</string>
+    <string name="invoice_average">Invoice Average:</string>
+
+    <declare-styleable name="Gallery1">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+    <!--CollectionNote-->
+
+
+    <string name="title_activity_collection_note">CollectionNote</string>
+    <string name="CollectionNoteNo">Collection Note No</string>
+    <string name="txtCollectionNo" />
+    <string name="RefNo">Ref No</string>
+    <string name="txtRefNo" />
+    <string name="CustomerName">Customer Name</string>
+    <string name="CurrentOutstanding">Current Outstanding</string>
+    <string name="txtCurrentOustanding" />
+    <string name="CreditAmount">Credit Amount</string>
+    <string name="txtCredfitAmount" />
+    <string name="PaymentType">Payment Type</string>
+    <string name="CashAmount">Cash Amount</string>
+    <string name="txtCashAmount" />
+    <string name="CheckAmount">Cheque Amount</string>
+    <string name="txtCheckAmount" />
+    <string name="lbInvoiceNo">Invoice No</string>
+    <string name="lbInvAomunt">Invoice Amount</string>
+    <string name="lbPayAomunt">Cash Amount</string>
+    <string name="lbBAomunt">Balance Amount</string>
+    <string name="lbBChAomunt">Cheque Amount</string>
+
+    <string name="txtBAomunt">Cash Balance</string>
+    <string name="txtAomunt">0.00</string>
+    <string name="txtExcess">0.00</string>
+    <string name="lbExcess">Excess</string>
+    <string name="txtChequeBalnce">Cheque Balance</string>
+    <string name="txtChBalnce">0.00</string>
+    <string name="InvoiceNo">Invoice No</string>
+    <string name="without">with out</string>
+    <string name="txtInvoice" />
+    <string name="ChequeNumber">Cheque Number</string>
+    <string name="BankName">Bank Name</string>
+    <string name="txtBankName" />
+    <string name="Branch">Branch</string>
+    <string name="txtBranch" />
+    <string name="CollectedDate">Collected Date</string>
+    <string name="RealizeDate">Realize Date</string>
+    <string name="GetChequePhoto">get cheque photo</string>
+    <string name="SendToApprovel">Submit</string>
+    <string name="Cancel">Cancel</string>
+    <string name="CollectionNote">CollectionNote</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtmanualCredit" />
+    <string name="Dwonload_DEL_Outstanding">Download Outstanding</string>
+    <string name="txt_Collection_Note">Dwonload collection note master data</string>
+    <string name="Collection_Note">Collection Note</string>
+    <string name="Upload_Collection_Note">Upload Collection Note</string>
+    <string name="collection_note">Collection Note</string>
+
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="skip_to">Skip To</string>
+    <string name="seconds">secs</string>
+    <string name="player_style">Player Style</string>
+    <string name="def">Default</string>
+    <string name="minimal">Minimal</string>
+    <string name="chromeless">Chromeless</string>
+
+    <string name="play_video">Play video</string>
+    <string name="play_playlist">Play playlist</string>
+    <string name="play_video_list">Play video list</string>
+    <string name="start_index">Start index</string>
+    <string name="start_time">Start time (sec)</string>
+    <string name="autoplay">Autoplay</string>
+    <string name="lightbox_mode">Lightbox mode</string>
+
+    <string name="intent_select">Please select an action:</string>
+    <string name="intent_disabled">This intent is not supported with the currently installed version of YouTube.</string>
+    <string name="youtube_currently_installed">YouTube version installed on this device: <xliff:g id="youtube_version">%1$s</xliff:g>.</string>
+    <string name="youtube_not_installed">YouTube is not installed on this device.</string>
+
+    <string name="fullscreen_tutorial">This is a demo which shows how to handle fullscreen behaviour. This activity has differents layouts for portrait, landscape and fullscreen. The user can enter fullscreen either by using the player controller or programmatically by the programmer (here using a button). If your activity does not have a landscape layout, you can choose to automatically enter fullscreen when the device is rotated to landscape orientation.</string>
+    <string name="enter_fullscreen">Enter Fullscreen</string>
+    <string name="landscape_fullscreen">Always fullscreen in landscape</string>
+
+    <string name="actionbar_tutorial">This is a demo which shows how to use the ActionBar as an overlay when the video is playing in fullscreen. The actionbar will automatically fade away along with the player controls when the video is being played in fullscreen. While not in fullscreen the Actionbar is visible and does not overlay any of the views.</string>
+
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="help_string">Help</string>
+
+    <string name="txt_principle">Brand</string>
+    <string name="txt_category">Category</string>
+    <string name="txt_bank">Bank</string>
+    <string name="txt_bank_branch">Bank Branch</string>
+
+    <!--  fontawesome-->
+    <string name="fw_collection_header">&#xf0f6;</string>
+    <string name="fw_collection_doller">&#xf155;</string>
+    <string name="fw_collection_customer">&#xf007;</string>
+    <string name="fw_collection_hash">&#xf292;</string>
+    <string name="fw_collection_money">&#xf0d6;</string>
+    <string name="fw_collection_bank">&#xf19c;</string>
+    <string name="fw_collection_invoice">&#xf05a;</string>
+    <string name="fw_collection_calender">&#xf073;</string>
+    <string name="fw_collection_camera">&#xf030;</string>
+    <string name="fw_collection_submit">&#xf0a9;</string>
+    <string name="fw_cloud_download">&#xf0ed;</string>
+    <string name="fw_cloud_upload">&#xf0ee;</string>
+    <string name="fw_circle">&#xf111;</string>
+
+
+</resources>

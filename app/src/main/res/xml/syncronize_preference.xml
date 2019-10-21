@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="pSyncroniseProducts"
+        android:summary="@string/syncronize_products_info"
+        android:title="@string/syncronize_products" />
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="pSyncronizeCustomers"
+        android:summary="@string/syncronize_customers_info"
+        android:title="@string/syncronize_customers" />
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="pSyncronizeInventory"
+        android:summary="@string/syncronize_inventory_info"
+        android:title="@string/syncronize_inventory" />
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="pSyncronizeItinerary"
+        android:summary="@string/syncronize_itinerary_info"
+        android:title="@string/syncronize_itinerary" />
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="pUploadInvoices"
+        android:summary="@string/upload_invoices_info"
+        android:title="@string/upload_invoice" />
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="pUploadCustomers"
+        android:summary="@string/upload_customers_info"
+        android:title="@string/upload_customers" />
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="pUploadReturns"
+        android:summary="@string/upload_returns_info"
+        android:title="@string/upload_returns" />
+    <!--Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="pUploadImages"
+        android:summary="@string/upload_images_info"
+        android:title="@string/upload_images" / -->
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="pUploadShelfQuantity"
+        android:summary="@string/upload_shelf_quantity_info"
+        android:title="@string/upload_shelf_quantity" />
+
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="pUploadInvoiceOutstandings"
+        android:summary="@string/upload_invoice_outstanding_info"
+        android:title="@string/upload_invoice_outstanding" />
+
+    <!--Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="pUploadInvoiceCheques"
+        android:summary="@string/upload_invoice_cheques_info"
+        android:title="@string/upload_invoice_cheques" / -->
+
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="pUploadProductUnload"
+        android:summary="@string/upload_product_unloads_info"
+        android:title="@string/upload_product_unloads" />
+
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="Dwonload_DEL_Outstanding"
+        android:summary="@string/Dwonload_DEL_Outstanding"
+        android:title="@string/Dwonload_DEL_Outstanding" />
+
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="Collection_Note"
+        android:summary="@string/Collection_Note"
+        android:title="@string/txt_Collection_Note" />
+
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="credit_periods"
+        android:summary="Download Credit Periods"
+        android:title="Download Credit Periods" />
+
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="Upload_Collection_Note"
+        android:summary="@string/Upload_Collection_Note"
+        android:title="@string/Upload_Collection_Note" />
+
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="DownloadDealerSales"
+        android:summary="Download Dealer Sales"
+        android:title="Download Dealer Sales" />
+
+    <Preference
+        android:icon="@drawable/sync_refresh"
+        android:key="DownloadFreeIssues"
+        android:summary="Download Free Issues"
+        android:title="Download Free Issues" />
+
+</PreferenceScreen>

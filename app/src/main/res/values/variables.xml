@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+  <string name="ftp_username">Indoscan</string>
+    <string name="ftp_password">Indoscan</string>
+    <string name="ftp_directory">C:\Inetpub\wwwroot\Indoscan\Images\Customer Images</string>
+    <string name="ftp_host">203.189.69.202</string>
+    <string name="ftp_port">21</string>
+
+    
+        <!--
+    <string name="ftp_username">Cherubium</string>
+    <string name="ftp_password">Ch12344</string>
+    <string name="ftp_directory">C:\Inetpub\wwwroot\Cherubium\Images\Customer Images</string>
+    <string name="ftp_host">220.247.236.246</string>
+    <string name="ftp_port">21</string>
+  
+    
+      <string name="ftp_username">Dreamron</string>
+    <string name="ftp_password">Dreamron@123</string>
+    <string name="ftp_directory">C:\Inetpub\wwwroot\eDreamron\Images\Customer Images</string>
+    <string name="ftp_host">220.247.240.118</string>
+    <string name="ftp_port">21</string>
+    
+    
+    <string name="ftp_username">Shan</string>
+    <string name="ftp_password">shan123</string>
+    <string name="ftp_directory">C:\Inetpub\wwwroot\eM_Halcyon\Images\Customer Images</string>
+    <string name="ftp_host">220.247.244.22</string>
+    <string name="ftp_port">21</string>
+
+
+
+    <string name="ftp_username">Shan</string>
+    <string name="ftp_password">shan123</string>
+    <string name="ftp_directory">C:\Inetpub\wwwroot\eM_Halcyon\Images\Customer Images</string>
+    <string name="ftp_host">192.168.1.52</string>
+    <string name="ftp_port">21</string>
+
+ 	 <string name="ftp_username">Dreamron</string>
+    <string name="ftp_password">Dreamron@123</string>
+    <string name="ftp_directory">C:\Inetpub\wwwroot\CB\Images\Customer Images</string>
+    <string name="ftp_host">220.247.240.118</string>
+    <string name="ftp_port">21</string>
+
+    -->
+
+</resources>

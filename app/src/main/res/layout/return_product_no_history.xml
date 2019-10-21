@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="99">
+
+            <TextView
+                android:id="@+id/labelTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="33"
+                android:gravity="left"
+                android:text="@string/returns_title"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/tvCustomerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:text="@string/customer_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/labelDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="33"
+                android:gravity="right"
+                android:text="@string/date"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#645E5E"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.53"
+                android:orientation="vertical"
+                android:padding="7dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lblinvoice_number"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Invoice Number"
+                        android:textStyle="bold" />
+                    <Spinner
+                        android:id="@+id/spInvoiceNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></Spinner>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelProduct"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/product"
+                        android:textStyle="bold" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/etProduct"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:completionThreshold="1"
+                        android:ems="15"
+                        android:hint="@string/product"
+                        android:inputType="text" />
+
+                    <ImageButton
+                        android:id="@+id/ibClearSearch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/clear_all"
+                        android:src="@drawable/content_remove" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Credit Amount"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvCrediAmount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="0"
+                        android:layout_marginLeft="5dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelBatch"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/batch"
+                        android:textStyle="bold" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/etBatch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:completionThreshold="1"
+                        android:ems="10"
+                        android:hint="@string/batch"
+                        android:inputType="text" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/lblExpiryDate"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Expiry Date"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edExpiryDate"
+                        android:layout_width="241dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Expiry Date"
+                        android:inputType="text"
+                        android:layout_weight="0.96"
+                        android:focusableInTouchMode="false"
+                        android:editable="false"/>
+                    <!--ImageButton
+                        android:id="@+id/btnCalPop"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/calendar" /-->
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelQty"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/qty"
+                        android:textStyle="bold" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/etQty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:completionThreshold="1"
+                        android:ems="10"
+                        android:hint="@string/quantity"
+                        android:inputType="number" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="6dp">
+
+                    <TextView
+                        android:id="@+id/tvDistitle"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Grand Discount"
+                        android:ems="10"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvTotalDiscount"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="0" />
+                </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="20dp">
+
+                        <TextView
+                            android:id="@+id/lbtotal_title"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Total   Rs."
+                            android:ems="10"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/lblTotalAmount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            ></TextView>
+                    </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="30dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/labelInvoice"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Return Invoice Number"
+                        android:ems="10"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvInvoice"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="@string/inv_no"
+                        android:paddingLeft="10dp"/>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelUnitPrice"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unit_price"
+                        android:textStyle="bold" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/etUnitPrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:completionThreshold="1"
+                        android:ems="10"
+                        android:hint="@string/unit_price"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lblRetailPrice"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Retail Price"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edRetailPrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Retail Price"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelFree"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/free"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/etFree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/free"
+                        android:inputType="number"
+                        android:text="0" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lblDiscount"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Disount"
+                        android:textStyle="bold"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/edDisPercentage"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="numberDecimal"/>
+
+                    <TextView
+                        android:id="@+id/symPercentage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="%"
+                        android:textStyle="bold"
+                        android:layout_weight="1"/>
+                    <EditText
+                        android:id="@+id/edPercentagevalue"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="numberDecimal"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/labelReturnQty"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/return_qty"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvReturnQty"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/return_qty"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/bAdd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add" />
+
+                <Button
+                    android:id="@+id/bSaveReturn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/save_returns" />
+
+                <Button
+                    android:id="@+id/bPrint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/print" />
+
+                <Button
+                    android:id="@+id/bCancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancel" />
+
+                <Button
+                    android:id="@+id/bDeleteReturns"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delete_returns" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_marginRight="100dp">
+
+            <RadioGroup
+                android:id="@+id/rgOptions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbResalable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/resalable" />
+
+                <RadioButton
+                    android:id="@+id/rbCompanyReturns"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Company" />
+                <RadioButton
+                    android:id="@+id/rbExpiredReturns"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expired" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginBottom="7dp"
+            android:background="#645E5E"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/tlItemsToRemove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#000000"
+                android:minHeight="40dp"
+                android:stretchColumns="0,1,2,3,4,5,6">
+
+                <TableRow
+                    android:id="@+id/trTableHeadings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:background="#d3d3d3">
+
+                    <TextView
+                        android:id="@+id/labelInvoiceNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/inv_no"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelProductDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/product_description"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelBatchfr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/batch"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelUnitPricefr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unit_price"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelReturnQuantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/return_qty"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/labelReturnValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/return_value"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

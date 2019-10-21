@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayoutProduct"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#009d2b2b">
+
+    <RelativeLayout
+        android:id="@+id/listProduct"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/textViewCode"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/textViewdescription"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/textViewCode"
+            android:layout_toRightOf="@+id/textViewCode"
+            android:text="New Text"
+            android:textColor="@color/myBlue" />
+
+        <TextView
+            android:id="@+id/textViewBatch"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/textViewdescription"
+            android:layout_toRightOf="@+id/textViewdescription"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/txtStock"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/textViewBatch"
+            android:layout_toRightOf="@+id/textViewBatch"
+            android:text="New Text"
+            android:textColor="@color/myRed" />
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/txtStock"
+            android:layout_toRightOf="@+id/txtStock"
+            android:text="New Text"
+            android:textColor="@color/myGreen" />
+
+
+        <TextView
+            android:id="@+id/TextShelf"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/textViewPrice"
+            android:layout_toRightOf="@+id/textViewPrice"
+            android:text="New Text"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/TextRequest"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/TextShelf"
+            android:layout_toRightOf="@+id/TextShelf"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/TextOrder"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/TextRequest"
+            android:layout_toRightOf="@+id/TextRequest"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/TextFree"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/TextOrder"
+            android:layout_toRightOf="@+id/TextOrder"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/TextDiscount"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/TextFree"
+            android:layout_toRightOf="@+id/TextFree"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

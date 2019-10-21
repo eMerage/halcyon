@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#009d2b2b"
+    android:id="@+id/relativelayoutProduct">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:background="@android:color/white"
+        android:layout_marginBottom="1dp"
+        android:id="@+id/listProduct"
+        android:layout_marginTop="2dp">
+
+
+        <TextView
+            android:id="@+id/textViewCodeSingleProduct"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="New Text"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textViewdescriptionSingleProduct"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/textViewCodeSingleProduct"
+            android:layout_toRightOf="@+id/textViewCodeSingleProduct"
+            android:text="New Text"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textViewBatchSingleProduct"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/textViewdescriptionSingleProduct"
+            android:layout_toRightOf="@+id/textViewdescriptionSingleProduct"
+            android:text="New Text" />
+
+        <TextView
+            android:id="@+id/txtStockSingleProduct"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/textViewBatchSingleProduct"
+            android:layout_toRightOf="@+id/textViewBatchSingleProduct"
+            android:text="New Text"
+            android:textColor="@color/myRed" />
+
+        <TextView
+            android:id="@+id/textViewPriceSingleProduct"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/txtStockSingleProduct"
+            android:layout_toRightOf="@+id/txtStockSingleProduct"
+            android:text="New Text" />
+
+        <TextView
+            android:layout_width="70dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextShelfSingleProduct"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textViewPriceSingleProduct"
+            android:layout_toEndOf="@+id/textViewPriceSingleProduct"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextRequestSingleProduct"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/TextShelfSingleProduct"
+            android:layout_toEndOf="@+id/TextShelfSingleProduct"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextOrderSingleProduct"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/TextRequestSingleProduct"
+            android:layout_toEndOf="@+id/TextRequestSingleProduct"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextFreeSingleProduct"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/TextOrderSingleProduct"
+            android:layout_toEndOf="@+id/TextOrderSingleProduct"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextDiscountSingleProduct"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/TextFreeSingleProduct"
+            android:layout_toEndOf="@+id/TextFreeSingleProduct"
+            android:layout_marginLeft="5dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

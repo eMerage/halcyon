@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Project\\Android\\CBHalcyon - New\\App 1\\halcyon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Himanshu Emerge\\.gradle\\caches\\transforms-2\\files-2.1\\6e3d969be04bff725317b2f29a3c6b20\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "197,249,300,354,405,465,526,586",
+                        "endColumns": "51,50,53,50,59,60,59,56",
+                        "endOffsets": "244,295,349,400,460,521,581,638"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "328,380,431,485,536,596,657,717",
+                        "endColumns": "51,50,53,50,59,60,59,56",
+                        "endOffsets": "375,426,480,531,591,652,712,769"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Himanshu Emerge\\.gradle\\caches\\transforms-2\\files-2.1\\2efe2ad4962b6e80a32836c4c366dc62\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        }
+    ]
+}

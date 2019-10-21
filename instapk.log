@@ -1,0 +1,44 @@
+Jul 17, 2017 10:08:48 AM com.pytenlabs.instapk.helpers.LogHelper init
+INFO: Windows 10, 10.0, amd64, Android Studio AI-162.2228.14
+Jul 17, 2017 10:08:49 AM com.pytenlabs.instapk.helpers.ProjectInfoHelper lambda$getProjectDetails$0
+INFO: Found Facet: Android
+Jul 17, 2017 10:08:50 AM com.pytenlabs.instapk.helpers.ProjectInfoHelper getProjectDetails
+INFO: ProjectInfo{versionCode=1, versionName='1.0', packageName='com.halcyon.channelbridge', projectName='halcyon'}
+Jul 17, 2017 10:14:23 AM com.pytenlabs.instapk.helpers.ProjectInfoHelper lambda$getProjectDetails$0
+INFO: Found Facet: Android
+Jul 17, 2017 10:14:23 AM com.pytenlabs.instapk.helpers.ProjectInfoHelper getProjectDetails
+INFO: ProjectInfo{versionCode=1, versionName='1.0', packageName='emerge.project.vitabioticssl', projectName='VitabioticsSL'}
+Jul 17, 2017 1:31:22 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper lambda$getProjectDetails$0
+INFO: Found Facet: Android
+Jul 17, 2017 1:31:22 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper getProjectDetails
+INFO: ProjectInfo{versionCode=1, versionName='1.0', packageName='emerge.project.realmvssqlite', projectName='RealmvsSqlite'}
+Jul 17, 2017 2:50:35 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper lambda$getProjectDetails$0
+INFO: Found Facet: Android
+Jul 17, 2017 2:50:35 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper getProjectDetails
+INFO: ProjectInfo{versionCode=1, versionName='1.0', packageName='com.halcyon.channelbridge', projectName='halcyon'}
+Jul 17, 2017 5:59:00 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper lambda$getProjectDetails$0
+INFO: Found Facet: Android
+Jul 17, 2017 5:59:00 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper getProjectDetails
+INFO: ProjectInfo{versionCode=1, versionName='1.0', packageName='tknews.project.tkhub.tknews', projectName='TKNews'}
+Jul 17, 2017 6:41:43 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper lambda$getProjectDetails$0
+INFO: Found Facet: Android
+Jul 17, 2017 6:41:43 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper getProjectDetails
+INFO: ProjectInfo{versionCode=1, versionName='1.0', packageName='com.HesperusMarketing.channelbridge', projectName='Hesperus Marketing'}
+Jul 17, 2017 7:01:58 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper lambda$getProjectDetails$0
+INFO: Found Facet: Android
+Jul 17, 2017 7:01:58 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper getProjectDetails
+INFO: ProjectInfo{versionCode=1, versionName='1.0', packageName='emerge.project.videotest', projectName='videotest'}
+Jul 17, 2017 7:24:00 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper lambda$getProjectDetails$0
+INFO: Found Facet: Android
+Jul 17, 2017 7:24:00 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper getProjectDetails
+INFO: ProjectInfo{versionCode=1, versionName='1.0', packageName='com.examples.youtubeapidemo', projectName='yt-android-player-master1'}
+Jul 17, 2017 8:06:33 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper getProjectDetails
+SEVERE: Empty facets, Can't get project info.
+Jul 17, 2017 10:18:03 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper lambda$getProjectDetails$0
+INFO: Found Facet: Android
+Jul 17, 2017 10:18:03 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper getProjectDetails
+INFO: ProjectInfo{versionCode=1, versionName='1.0', packageName='emerge.project.vitabioticssl', projectName='VitabioticsSL'}
+Jul 17, 2017 10:46:48 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper lambda$getProjectDetails$0
+INFO: Found Facet: Android
+Jul 17, 2017 10:46:48 PM com.pytenlabs.instapk.helpers.ProjectInfoHelper getProjectDetails
+INFO: ProjectInfo{versionCode=1, versionName='1.0', packageName='tkhub.project.firebasetest', projectName='FireBaseTest'}

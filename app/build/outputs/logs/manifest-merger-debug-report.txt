@@ -1,0 +1,723 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:2:1-389:12
+INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:2:1-389:12
+INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:2:1-389:12
+INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:2:1-389:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2efe2ad4962b6e80a32836c4c366dc62\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\6ae16cf67580cd19dc6dd28648562e06\AndroidManifest.xml:2:1-11:12
+MERGED from [com.borax12.materialdaterangepicker:library:1.6] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\6e3d969be04bff725317b2f29a3c6b20\AndroidManifest.xml:17:1-30:12
+MERGED from [com.jaredrummler:material-spinner:1.0.9] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\f83bd620cdd27ec90b01003d9debb0e8\AndroidManifest.xml:18:1-25:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\29ba6d0dc688dc5d26ffb1805ce5bb74\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\f1e62d5a157fcc6fc84c7b7f953cb0b3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\df7b36b2ecba76d7fe8ca8ce9def855b\AndroidManifest.xml:2:1-11:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.8] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\d0e71af7e0833f209a6a152dcd0cf1dd\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\13cbaa36aab30df518f6664ac1f6d348\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\1e210b5c39d8e0c82305e19406a53077\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\916355dc8b80b38c352b79a601659471\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2830f2af3abfe1e4cba0311c86e316fe\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\bf984d78ae9c97c02be8dd3e898169d8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\b1da8d4fc56c3e76359fc554b87d3ac6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\a17bb23937ee1d88378d98ee3babca79\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\419c33bd9dbbedffde2fe9dc101968ef\AndroidManifest.xml:17:1-30:12
+INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:2:1-389:12
+INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:2:1-389:12
+INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:2:1-389:12
+	package
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:2:1-389:12
+		INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:2:1-389:12
+		INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:5:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:6:22-72
+uses-permission#android.permission.INTERNET
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:10:5-66
+MERGED from [com.borax12.materialdaterangepicker:library:1.6] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\6e3d969be04bff725317b2f29a3c6b20\AndroidManifest.xml:26:5-66
+MERGED from [com.borax12.materialdaterangepicker:library:1.6] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\6e3d969be04bff725317b2f29a3c6b20\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:10:22-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:12:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:16:5-73
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:16:22-70
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:17:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:18:5-70
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:18:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:19:22-64
+application
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:21:5-387:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2efe2ad4962b6e80a32836c4c366dc62\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2efe2ad4962b6e80a32836c4c366dc62\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\6ae16cf67580cd19dc6dd28648562e06\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\6ae16cf67580cd19dc6dd28648562e06\AndroidManifest.xml:9:5-20
+MERGED from [com.borax12.materialdaterangepicker:library:1.6] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\6e3d969be04bff725317b2f29a3c6b20\AndroidManifest.xml:28:5-20
+MERGED from [com.borax12.materialdaterangepicker:library:1.6] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\6e3d969be04bff725317b2f29a3c6b20\AndroidManifest.xml:28:5-20
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\f1e62d5a157fcc6fc84c7b7f953cb0b3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\f1e62d5a157fcc6fc84c7b7f953cb0b3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\13cbaa36aab30df518f6664ac1f6d348\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\13cbaa36aab30df518f6664ac1f6d348\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\1e210b5c39d8e0c82305e19406a53077\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\1e210b5c39d8e0c82305e19406a53077\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\916355dc8b80b38c352b79a601659471\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\916355dc8b80b38c352b79a601659471\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2830f2af3abfe1e4cba0311c86e316fe\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2830f2af3abfe1e4cba0311c86e316fe\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\bf984d78ae9c97c02be8dd3e898169d8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\bf984d78ae9c97c02be8dd3e898169d8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\b1da8d4fc56c3e76359fc554b87d3ac6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\b1da8d4fc56c3e76359fc554b87d3ac6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\a17bb23937ee1d88378d98ee3babca79\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\a17bb23937ee1d88378d98ee3babca79\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\419c33bd9dbbedffde2fe9dc101968ef\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\419c33bd9dbbedffde2fe9dc101968ef\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:24:9-41
+	android:largeHeap
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:25:9-33
+	android:icon
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:23:9-46
+	android:theme
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:26:9-70
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:22:9-43
+activity#com.halcyon.channelbridge.CBMainActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:28:9-37:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:31:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:30:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:29:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:35:27-74
+activity#com.halcyon.channelbridge.LoginActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:38:9-47:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:41:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:40:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:39:13-42
+intent-filter#action:name:com.halcyon.channelbridge.LOGINACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:42:13-46:29
+action#com.halcyon.channelbridge.LOGINACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:43:17-82
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:43:25-79
+category#android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:45:27-73
+activity#com.halcyon.channelbridge.ItineraryList
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:48:9-57:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:51:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:49:13-42
+intent-filter#action:name:com.halcyon.channelbridge.ITINERARYLIST+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:52:13-56:29
+action#com.halcyon.channelbridge.ITINERARYLIST
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:53:17-82
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:53:25-79
+activity#com.halcyon.channelbridge.RepAttendance
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:58:9-67:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:61:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:60:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:59:13-42
+intent-filter#action:name:com.halcyon.channelbridge.RepAttendance+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:62:13-66:29
+action#com.halcyon.channelbridge.RepAttendance
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:63:17-82
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:63:25-79
+activity#com.halcyon.channelbridge.AddCustomerActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:68:9-78:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:72:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:71:13-45
+	android:configChanges
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:70:13-48
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:69:13-48
+intent-filter#action:name:com.halcyon.channelbridge.ADDCUSTOMERACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:73:13-77:29
+action#com.halcyon.channelbridge.ADDCUSTOMERACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:74:17-88
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:74:25-85
+activity#com.halcyon.channelbridge.ExtraCustomerActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:79:9-88:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:82:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:81:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:80:13-50
+intent-filter#action:name:com.halcyon.channelbridge.EXTRACUSTOMERACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:83:13-87:29
+action#com.halcyon.channelbridge.EXTRACUSTOMERACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:84:17-90
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:84:25-87
+activity#com.halcyon.channelbridge.CustomerDetailsComments_TabWidget
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:89:9-98:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:92:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:91:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:90:13-62
+intent-filter#action:name:com.halcyon.channelbridge.CUSTOMERDETAILSCOMMENTSTABWIDGET+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:93:13-97:29
+action#com.halcyon.channelbridge.CUSTOMERDETAILSCOMMENTSTABWIDGET
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:94:17-101
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:94:25-98
+activity#com.halcyon.channelbridge.RemarksActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:99:9-108:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:102:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:101:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:100:13-44
+intent-filter#action:name:com.halcyon.channelbridge.REMARKSACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:103:13-107:29
+action#com.halcyon.channelbridge.REMARKSACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:104:17-84
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:104:25-81
+activity#com.halcyon.channelbridge.CustomerDetailsActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:109:9-118:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:112:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:111:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:110:13-52
+intent-filter#action:name:com.halcyon.channelbridge.CUSTOMERDETAILSACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:113:13-117:29
+action#com.halcyon.channelbridge.CUSTOMERDETAILSACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:114:17-92
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:114:25-89
+activity#com.halcyon.channelbridge.InvoiceGen1Activity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:119:9-128:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:122:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:121:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:120:13-48
+intent-filter#action:name:com.halcyon.channelbridge.INVOICEGEN1ACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:123:13-127:29
+action#com.halcyon.channelbridge.INVOICEGEN1ACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:124:17-88
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:124:25-85
+activity#com.halcyon.channelbridge.InvoiceGen1Alternate
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:129:9-138:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:132:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:131:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:130:13-49
+intent-filter#action:name:com.halcyon.channelbridge.INVOICEGEN1ALTERNATE+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:133:13-137:29
+action#com.halcyon.channelbridge.INVOICEGEN1ALTERNATE
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:134:17-89
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:134:25-86
+activity#com.halcyon.channelbridge.InvoiceGen2Activity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:139:9-148:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:142:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:141:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:140:13-48
+intent-filter#action:name:com.halcyon.channelbridge.INVOICEGEN2ACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:143:13-147:29
+action#com.halcyon.channelbridge.INVOICEGEN2ACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:144:17-88
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:144:25-85
+activity#com.halcyon.channelbridge.InvoiceGen3Activity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:149:9-158:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:152:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:151:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:150:13-48
+intent-filter#action:name:com.halcyon.channelbridge.INVOICEGEN3ACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:153:13-157:29
+action#com.halcyon.channelbridge.INVOICEGEN3ACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:154:17-88
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:154:25-85
+activity#com.halcyon.channelbridge.ReturnProductNoHistoryActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:159:9-168:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:162:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:161:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:160:13-59
+intent-filter#action:name:com.halcyon.channelbridge.RETURNPRODUCTNOHISTORYACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:163:13-167:29
+action#com.halcyon.channelbridge.RETURNPRODUCTNOHISTORYACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:164:17-99
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:164:25-96
+activity#com.halcyon.channelbridge.CompetitorProductsActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:169:9-178:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:172:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:171:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:170:13-55
+intent-filter#action:name:com.halcyon.channelbridge.COMPETITORPRODUCTACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:173:13-177:29
+action#com.halcyon.channelbridge.COMPETITORPRODUCTACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:174:17-94
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:174:25-91
+activity#com.halcyon.channelbridge.SettingsActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:179:9-188:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:182:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:181:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:180:13-45
+intent-filter#action:name:com.halcyon.channelbridge.SETTINGSACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:183:13-187:29
+action#com.halcyon.channelbridge.SETTINGSACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:184:17-85
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:184:25-82
+activity#com.halcyon.channelbridge.ReturnInvoiceActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:189:9-198:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:192:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:191:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:190:13-50
+intent-filter#action:name:com.halcyon.channelbridge.RETURNINVOICEACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:193:13-197:29
+action#com.halcyon.channelbridge.RETURNINVOICEACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:194:17-90
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:194:25-87
+activity#com.halcyon.channelbridge.Preferences
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:199:9-208:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:202:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:201:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:200:13-40
+intent-filter#action:name:com.halcyon.channelbridge.PREF+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:203:13-207:29
+action#com.halcyon.channelbridge.PREF
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:204:17-73
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:204:25-70
+activity#com.halcyon.channelbridge.ProductRepStoreActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:209:9-218:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:212:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:211:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:210:13-52
+intent-filter#action:name:com.halcyon.channelbridge.PRODUCTREPSTOREACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:213:13-217:29
+action#com.halcyon.channelbridge.PRODUCTREPSTOREACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:214:17-92
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:214:25-89
+activity#com.halcyon.channelbridge.CustomerImageGalleryActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:219:9-228:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:222:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:221:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:220:13-57
+intent-filter#action:name:com.halcyon.channelbridge.CUSTOMERIMAGEGALLERYACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:223:13-227:29
+action#com.halcyon.channelbridge.CUSTOMERIMAGEGALLERYACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:224:17-97
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:224:25-94
+activity#com.halcyon.channelbridge.PriceListActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:229:9-238:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:232:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:231:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:230:13-46
+intent-filter#action:name:com.halcyon.channelbridge.PRICELISTACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:233:13-237:29
+action#com.halcyon.channelbridge.PRICELISTACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:234:17-86
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:234:25-83
+activity#com.halcyon.channelbridge.LastInvoiceActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:239:9-248:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:242:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:241:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:240:13-48
+intent-filter#action:name:com.halcyon.channelbridge.LASTINVOICEACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:243:13-247:29
+action#com.halcyon.channelbridge.LASTINVOICEACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:244:17-88
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:244:25-85
+activity#com.halcyon.channelbridge.InvoiceViewActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:249:9-258:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:252:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:251:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:250:13-48
+intent-filter#action:name:com.halcyon.channelbridge.INVOICEVIEWACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:253:13-257:29
+action#com.halcyon.channelbridge.INVOICEVIEWACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:254:17-88
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:254:25-85
+activity#com.halcyon.channelbridge.PrintUtility
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:259:9-268:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:262:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:261:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:260:13-41
+intent-filter#action:name:com.halcyon.channelbridge.PRINTUTILITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:263:13-267:29
+action#com.halcyon.channelbridge.PRINTUTILITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:264:17-81
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:264:25-78
+activity#com.halcyon.channelbridge.ReturnProductHistoryActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:269:9-278:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:272:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:271:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:270:13-57
+intent-filter#action:name:com.halcyon.channelbridge.RETURNPRODUCTHISTORYACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:273:13-277:29
+action#com.halcyon.channelbridge.RETURNPRODUCTHISTORYACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:274:17-97
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:274:25-94
+activity#com.halcyon.channelbridge.AboutApplication
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:279:9-288:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:282:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:281:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:280:13-45
+intent-filter#action:name:com.halcyon.channelbridge.ABOUTAPPLICATION+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:283:13-287:29
+action#com.halcyon.channelbridge.ABOUTAPPLICATION
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:284:17-85
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:284:25-82
+activity#com.halcyon.channelbridge.AdministratorPreference
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:289:9-298:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:292:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:291:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:290:13-52
+intent-filter#action:name:com.halcyon.channelbridge.ADMINISTRATORPREFERENCE+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:293:13-297:29
+action#com.halcyon.channelbridge.ADMINISTRATORPREFERENCE
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:294:17-92
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:294:25-89
+activity#com.halcyon.channelbridge.AverageQuantity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:299:9-308:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:302:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:301:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:300:13-44
+intent-filter#action:name:com.halcyon.channelbridge.INVOICEHISTORYACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:303:13-307:29
+action#com.halcyon.channelbridge.INVOICEHISTORYACTIVITY
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:304:17-91
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:304:25-88
+activity#com.halcyon.channelbridgehelp.VideoListDemoActivity
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:309:9-317:20
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:311:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:310:13-79
+intent-filter#action:name:com.halcyon.channelbridge.VideoListDemo+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:312:13-316:29
+action#com.halcyon.channelbridge.VideoListDemo
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:313:17-82
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:313:25-79
+activity#com.halcyon.channelbridge.ManualSync
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:318:9-327:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:321:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:320:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:319:13-39
+intent-filter#action:name:com.halcyon.channelbridge.ManualSync+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:322:13-326:29
+action#com.halcyon.channelbridge.ManualSync
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:323:17-79
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:323:25-76
+activity#com.halcyon.channelbridge.DeliveryManagement
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:330:9-340:20
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:332:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:331:13-45
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:330:19-53
+intent-filter#action:name:com.halcyon.channelbridge.DeliveryManagement+category:name:android.intent.category.DEFAULT
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:334:13-338:29
+action#com.halcyon.channelbridge.DeliveryManagement
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:335:17-87
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:335:25-84
+service#com.halcyon.channelbridge.AutoSynchronize
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:345:9-347:38
+	android:enabled
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:347:13-35
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:346:13-44
+service#com.halcyon.channelbridge.GPSAutoSynchronize
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:348:9-350:38
+	android:enabled
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:350:13-35
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:349:13-47
+service#com.halcyon.channelbridgebs.AutoBackupService
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:351:9-81
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:351:18-78
+service#com.halcyon.channelbridgebs.UploadGPSTask
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:352:9-77
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:352:18-74
+receiver#com.halcyon.channelbridge.AutoSyncronizeTimer
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:354:9-358:20
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:354:19-54
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:355:13-357:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:356:17-79
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:356:25-76
+receiver#com.halcyon.channelbridge.GPSAutoSyncronizeTimer
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:359:9-363:20
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:359:19-57
+receiver#com.halcyon.channelbridgebs.AutoBackupBroadcast
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:364:9-368:20
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:364:19-81
+receiver#com.halcyon.channelbridgebs.GPSBroadcast
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:369:9-373:20
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:369:19-74
+receiver#com.halcyon.channelbridge.AutoSynchronizeStarter
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:374:9-60
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:374:19-57
+receiver#com.halcyon.channelbridge.GPSAutoSynchronizeStarter
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:375:9-63
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:375:19-60
+activity#com.halcyon.channelbridge.CollectionNote
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:377:9-380:53
+	android:screenOrientation
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:380:13-50
+	android:label
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:379:13-67
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:378:13-43
+receiver#com.halcyon.channelbridgehelp.SmsBroadcastReceiver
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:382:9-386:20
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:382:19-84
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:383:13-385:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:384:17-82
+	android:name
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml:384:25-79
+uses-sdk
+INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2efe2ad4962b6e80a32836c4c366dc62\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2efe2ad4962b6e80a32836c4c366dc62\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\6ae16cf67580cd19dc6dd28648562e06\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\6ae16cf67580cd19dc6dd28648562e06\AndroidManifest.xml:5:5-7:41
+MERGED from [com.borax12.materialdaterangepicker:library:1.6] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\6e3d969be04bff725317b2f29a3c6b20\AndroidManifest.xml:22:5-24:41
+MERGED from [com.borax12.materialdaterangepicker:library:1.6] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\6e3d969be04bff725317b2f29a3c6b20\AndroidManifest.xml:22:5-24:41
+MERGED from [com.jaredrummler:material-spinner:1.0.9] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\f83bd620cdd27ec90b01003d9debb0e8\AndroidManifest.xml:21:5-23:41
+MERGED from [com.jaredrummler:material-spinner:1.0.9] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\f83bd620cdd27ec90b01003d9debb0e8\AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\29ba6d0dc688dc5d26ffb1805ce5bb74\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\29ba6d0dc688dc5d26ffb1805ce5bb74\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\f1e62d5a157fcc6fc84c7b7f953cb0b3\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\f1e62d5a157fcc6fc84c7b7f953cb0b3\AndroidManifest.xml:21:5-23:54
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\df7b36b2ecba76d7fe8ca8ce9def855b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\df7b36b2ecba76d7fe8ca8ce9def855b\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.8] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\d0e71af7e0833f209a6a152dcd0cf1dd\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.8] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\d0e71af7e0833f209a6a152dcd0cf1dd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\13cbaa36aab30df518f6664ac1f6d348\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\13cbaa36aab30df518f6664ac1f6d348\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\1e210b5c39d8e0c82305e19406a53077\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\1e210b5c39d8e0c82305e19406a53077\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\916355dc8b80b38c352b79a601659471\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\916355dc8b80b38c352b79a601659471\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2830f2af3abfe1e4cba0311c86e316fe\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2830f2af3abfe1e4cba0311c86e316fe\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\bf984d78ae9c97c02be8dd3e898169d8\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\bf984d78ae9c97c02be8dd3e898169d8\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\b1da8d4fc56c3e76359fc554b87d3ac6\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\b1da8d4fc56c3e76359fc554b87d3ac6\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\a17bb23937ee1d88378d98ee3babca79\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\a17bb23937ee1d88378d98ee3babca79\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\419c33bd9dbbedffde2fe9dc101968ef\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\419c33bd9dbbedffde2fe9dc101968ef\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2efe2ad4962b6e80a32836c4c366dc62\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+		ADDED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Project\Android\CBHalcyon - New\App 1\halcyon\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2efe2ad4962b6e80a32836c4c366dc62\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\f1e62d5a157fcc6fc84c7b7f953cb0b3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\f1e62d5a157fcc6fc84c7b7f953cb0b3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\13cbaa36aab30df518f6664ac1f6d348\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\13cbaa36aab30df518f6664ac1f6d348\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\1e210b5c39d8e0c82305e19406a53077\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\1e210b5c39d8e0c82305e19406a53077\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\916355dc8b80b38c352b79a601659471\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\916355dc8b80b38c352b79a601659471\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2830f2af3abfe1e4cba0311c86e316fe\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2830f2af3abfe1e4cba0311c86e316fe\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\bf984d78ae9c97c02be8dd3e898169d8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\bf984d78ae9c97c02be8dd3e898169d8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\b1da8d4fc56c3e76359fc554b87d3ac6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\b1da8d4fc56c3e76359fc554b87d3ac6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\a17bb23937ee1d88378d98ee3babca79\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\a17bb23937ee1d88378d98ee3babca79\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2efe2ad4962b6e80a32836c4c366dc62\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\2efe2ad4962b6e80a32836c4c366dc62\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\419c33bd9dbbedffde2fe9dc101968ef\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\419c33bd9dbbedffde2fe9dc101968ef\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Himanshu Emerge\.gradle\caches\transforms-2\files-2.1\419c33bd9dbbedffde2fe9dc101968ef\AndroidManifest.xml:26:13-58

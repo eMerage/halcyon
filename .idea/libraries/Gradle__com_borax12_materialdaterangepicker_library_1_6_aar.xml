@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.borax12.materialdaterangepicker:library:1.6@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e3d969be04bff725317b2f29a3c6b20/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e3d969be04bff725317b2f29a3c6b20/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.borax12.materialdaterangepicker/library/1.6/9cffd377c1ab65a640ebfb8b525d3e0f747cb192/library-1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menu_delivery_management"
+        android:icon="@drawable/ic_local_shipping_black_24dp"
+        android:showAsAction="always"
+        android:title="Delivery" />
+
+
+    <item
+        android:id="@+id/menu_collection_note"
+        android:icon="@drawable/icon_collection_note"
+        android:showAsAction="never"
+        android:title="@string/collection_note"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/menu_repAddence"
+        android:icon="@drawable/clock"
+        android:showAsAction="never"
+        android:title="@string/rep_attendence"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_addCustomer"
+        android:icon="@drawable/ic_action_user_add"
+        android:showAsAction="always"
+        android:title="@string/add_customer" />
+    <item
+        android:id="@+id/menu_priceList"
+        android:icon="@drawable/price_list_icon"
+        android:showAsAction="always"
+        android:title="@string/price_list" />
+    <item
+        android:id="@+id/menu_extraCustomer"
+        android:title="@string/add_extra_customer" />
+    <item
+        android:id="@+id/menu_CompetitorProducts"
+        android:title="@string/competitor_products"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_repStore"
+        android:icon="@drawable/rep_store"
+        android:showAsAction="always"
+        android:title="@string/settings" />
+    <item
+        android:id="@+id/menu_syncronizePreference"
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="always"
+        android:title="@string/syncronize" />
+
+    <item
+        android:id="@+id/menu_preference"
+        android:title="@string/preference" />
+
+    <item
+        android:id="@+id/menu_help"
+        android:icon="@drawable/help_24"
+        android:showAsAction="never"
+        android:visible="false"
+        android:title="@string/help_string" />
+
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/about" />
+
+
+
+</menu>

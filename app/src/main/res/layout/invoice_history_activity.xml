@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <AutoCompleteTextView
+                android:id="@+id/ihSearchProducts"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/search_products"
+                android:text="" />
+
+            <ImageButton
+                android:id="@+id/ihClearSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/clear_all"
+                android:src="@drawable/content_remove" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lvCustomerInvoiceHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/iconBlue"
+        android:background="#e6e5e5" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,548 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:7:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.BLUETOOTH
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.SEND_SMS
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+application
+ADDED from AndroidManifest.xml:21:5
+	android:label
+		ADDED from AndroidManifest.xml:23:9
+	android:icon
+		ADDED from AndroidManifest.xml:22:9
+	android:theme
+		ADDED from AndroidManifest.xml:24:9
+activity#com.halcyon.channelbridge.CBMainActivity
+ADDED from AndroidManifest.xml:25:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:28:13
+	android:label
+		ADDED from AndroidManifest.xml:27:13
+	android:name
+		ADDED from AndroidManifest.xml:26:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:29:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:30:17
+	android:name
+		ADDED from AndroidManifest.xml:30:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:32:17
+	android:name
+		ADDED from AndroidManifest.xml:32:27
+activity#com.halcyon.channelbridge.LoginActivity
+ADDED from AndroidManifest.xml:35:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:38:13
+	android:label
+		ADDED from AndroidManifest.xml:37:13
+	android:name
+		ADDED from AndroidManifest.xml:36:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.LOGINACTIVITY
+ADDED from AndroidManifest.xml:39:13
+action#com.halcyon.channelbridge.LOGINACTIVITY
+ADDED from AndroidManifest.xml:40:17
+	android:name
+		ADDED from AndroidManifest.xml:40:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:42:17
+	android:name
+		ADDED from AndroidManifest.xml:42:27
+activity#com.halcyon.channelbridge.ItineraryList
+ADDED from AndroidManifest.xml:45:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:48:13
+	android:label
+		ADDED from AndroidManifest.xml:47:13
+	android:name
+		ADDED from AndroidManifest.xml:46:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.ITINERARYLIST
+ADDED from AndroidManifest.xml:49:13
+action#com.halcyon.channelbridge.ITINERARYLIST
+ADDED from AndroidManifest.xml:50:17
+	android:name
+		ADDED from AndroidManifest.xml:50:25
+activity#com.halcyon.channelbridge.RepAttendance
+ADDED from AndroidManifest.xml:55:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:58:13
+	android:label
+		ADDED from AndroidManifest.xml:57:13
+	android:name
+		ADDED from AndroidManifest.xml:56:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.RepAttendance
+ADDED from AndroidManifest.xml:59:13
+action#com.halcyon.channelbridge.RepAttendance
+ADDED from AndroidManifest.xml:60:17
+	android:name
+		ADDED from AndroidManifest.xml:60:25
+activity#com.halcyon.channelbridge.AddCustomerActivity
+ADDED from AndroidManifest.xml:65:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:68:13
+	android:label
+		ADDED from AndroidManifest.xml:67:13
+	android:name
+		ADDED from AndroidManifest.xml:66:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.ADDCUSTOMERACTIVITY
+ADDED from AndroidManifest.xml:69:13
+action#com.halcyon.channelbridge.ADDCUSTOMERACTIVITY
+ADDED from AndroidManifest.xml:70:17
+	android:name
+		ADDED from AndroidManifest.xml:70:25
+activity#com.halcyon.channelbridge.ExtraCustomerActivity
+ADDED from AndroidManifest.xml:75:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:78:13
+	android:label
+		ADDED from AndroidManifest.xml:77:13
+	android:name
+		ADDED from AndroidManifest.xml:76:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.EXTRACUSTOMERACTIVITY
+ADDED from AndroidManifest.xml:79:13
+action#com.halcyon.channelbridge.EXTRACUSTOMERACTIVITY
+ADDED from AndroidManifest.xml:80:17
+	android:name
+		ADDED from AndroidManifest.xml:80:25
+activity#com.halcyon.channelbridge.CustomerDetailsComments_TabWidget
+ADDED from AndroidManifest.xml:85:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:88:13
+	android:label
+		ADDED from AndroidManifest.xml:87:13
+	android:name
+		ADDED from AndroidManifest.xml:86:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.CUSTOMERDETAILSCOMMENTSTABWIDGET
+ADDED from AndroidManifest.xml:89:13
+action#com.halcyon.channelbridge.CUSTOMERDETAILSCOMMENTSTABWIDGET
+ADDED from AndroidManifest.xml:90:17
+	android:name
+		ADDED from AndroidManifest.xml:90:25
+activity#com.halcyon.channelbridge.RemarksActivity
+ADDED from AndroidManifest.xml:95:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:98:13
+	android:label
+		ADDED from AndroidManifest.xml:97:13
+	android:name
+		ADDED from AndroidManifest.xml:96:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.REMARKSACTIVITY
+ADDED from AndroidManifest.xml:99:13
+action#com.halcyon.channelbridge.REMARKSACTIVITY
+ADDED from AndroidManifest.xml:100:17
+	android:name
+		ADDED from AndroidManifest.xml:100:25
+activity#com.halcyon.channelbridge.CustomerDetailsActivity
+ADDED from AndroidManifest.xml:105:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:108:13
+	android:label
+		ADDED from AndroidManifest.xml:107:13
+	android:name
+		ADDED from AndroidManifest.xml:106:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.CUSTOMERDETAILSACTIVITY
+ADDED from AndroidManifest.xml:109:13
+action#com.halcyon.channelbridge.CUSTOMERDETAILSACTIVITY
+ADDED from AndroidManifest.xml:110:17
+	android:name
+		ADDED from AndroidManifest.xml:110:25
+activity#com.halcyon.channelbridge.InvoiceGen1Activity
+ADDED from AndroidManifest.xml:115:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:118:13
+	android:label
+		ADDED from AndroidManifest.xml:117:13
+	android:name
+		ADDED from AndroidManifest.xml:116:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.INVOICEGEN1ACTIVITY
+ADDED from AndroidManifest.xml:119:13
+action#com.halcyon.channelbridge.INVOICEGEN1ACTIVITY
+ADDED from AndroidManifest.xml:120:17
+	android:name
+		ADDED from AndroidManifest.xml:120:25
+activity#com.halcyon.channelbridge.InvoiceGen2Activity
+ADDED from AndroidManifest.xml:125:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:128:13
+	android:label
+		ADDED from AndroidManifest.xml:127:13
+	android:name
+		ADDED from AndroidManifest.xml:126:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.INVOICEGEN2ACTIVITY
+ADDED from AndroidManifest.xml:129:13
+action#com.halcyon.channelbridge.INVOICEGEN2ACTIVITY
+ADDED from AndroidManifest.xml:130:17
+	android:name
+		ADDED from AndroidManifest.xml:130:25
+activity#com.halcyon.channelbridge.InvoiceGen3Activity
+ADDED from AndroidManifest.xml:135:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:138:13
+	android:label
+		ADDED from AndroidManifest.xml:137:13
+	android:name
+		ADDED from AndroidManifest.xml:136:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.INVOICEGEN3ACTIVITY
+ADDED from AndroidManifest.xml:139:13
+action#com.halcyon.channelbridge.INVOICEGEN3ACTIVITY
+ADDED from AndroidManifest.xml:140:17
+	android:name
+		ADDED from AndroidManifest.xml:140:25
+activity#com.halcyon.channelbridge.ReturnProductNoHistoryActivity
+ADDED from AndroidManifest.xml:145:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:148:13
+	android:label
+		ADDED from AndroidManifest.xml:147:13
+	android:name
+		ADDED from AndroidManifest.xml:146:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.RETURNPRODUCTNOHISTORYACTIVITY
+ADDED from AndroidManifest.xml:149:13
+action#com.halcyon.channelbridge.RETURNPRODUCTNOHISTORYACTIVITY
+ADDED from AndroidManifest.xml:150:17
+	android:name
+		ADDED from AndroidManifest.xml:150:25
+activity#com.halcyon.channelbridge.CompetitorProductsActivity
+ADDED from AndroidManifest.xml:155:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:158:13
+	android:label
+		ADDED from AndroidManifest.xml:157:13
+	android:name
+		ADDED from AndroidManifest.xml:156:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.COMPETITORPRODUCTACTIVITY
+ADDED from AndroidManifest.xml:159:13
+action#com.halcyon.channelbridge.COMPETITORPRODUCTACTIVITY
+ADDED from AndroidManifest.xml:160:17
+	android:name
+		ADDED from AndroidManifest.xml:160:25
+activity#com.halcyon.channelbridge.SettingsActivity
+ADDED from AndroidManifest.xml:165:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:168:13
+	android:label
+		ADDED from AndroidManifest.xml:167:13
+	android:name
+		ADDED from AndroidManifest.xml:166:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.SETTINGSACTIVITY
+ADDED from AndroidManifest.xml:169:13
+action#com.halcyon.channelbridge.SETTINGSACTIVITY
+ADDED from AndroidManifest.xml:170:17
+	android:name
+		ADDED from AndroidManifest.xml:170:25
+activity#com.halcyon.channelbridge.ReturnInvoiceActivity
+ADDED from AndroidManifest.xml:175:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:178:13
+	android:label
+		ADDED from AndroidManifest.xml:177:13
+	android:name
+		ADDED from AndroidManifest.xml:176:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.RETURNINVOICEACTIVITY
+ADDED from AndroidManifest.xml:179:13
+action#com.halcyon.channelbridge.RETURNINVOICEACTIVITY
+ADDED from AndroidManifest.xml:180:17
+	android:name
+		ADDED from AndroidManifest.xml:180:25
+activity#com.halcyon.channelbridge.Preferences
+ADDED from AndroidManifest.xml:185:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:188:13
+	android:label
+		ADDED from AndroidManifest.xml:187:13
+	android:name
+		ADDED from AndroidManifest.xml:186:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.PREF
+ADDED from AndroidManifest.xml:189:13
+action#com.halcyon.channelbridge.PREF
+ADDED from AndroidManifest.xml:190:17
+	android:name
+		ADDED from AndroidManifest.xml:190:25
+activity#com.halcyon.channelbridge.ProductRepStoreActivity
+ADDED from AndroidManifest.xml:195:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:198:13
+	android:label
+		ADDED from AndroidManifest.xml:197:13
+	android:name
+		ADDED from AndroidManifest.xml:196:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.PRODUCTREPSTOREACTIVITY
+ADDED from AndroidManifest.xml:199:13
+action#com.halcyon.channelbridge.PRODUCTREPSTOREACTIVITY
+ADDED from AndroidManifest.xml:200:17
+	android:name
+		ADDED from AndroidManifest.xml:200:25
+activity#com.halcyon.channelbridge.CustomerImageGalleryActivity
+ADDED from AndroidManifest.xml:205:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:208:13
+	android:label
+		ADDED from AndroidManifest.xml:207:13
+	android:name
+		ADDED from AndroidManifest.xml:206:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.CUSTOMERIMAGEGALLERYACTIVITY
+ADDED from AndroidManifest.xml:209:13
+action#com.halcyon.channelbridge.CUSTOMERIMAGEGALLERYACTIVITY
+ADDED from AndroidManifest.xml:210:17
+	android:name
+		ADDED from AndroidManifest.xml:210:25
+activity#com.halcyon.channelbridge.PriceListActivity
+ADDED from AndroidManifest.xml:215:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:218:13
+	android:label
+		ADDED from AndroidManifest.xml:217:13
+	android:name
+		ADDED from AndroidManifest.xml:216:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.PRICELISTACTIVITY
+ADDED from AndroidManifest.xml:219:13
+action#com.halcyon.channelbridge.PRICELISTACTIVITY
+ADDED from AndroidManifest.xml:220:17
+	android:name
+		ADDED from AndroidManifest.xml:220:25
+activity#com.halcyon.channelbridge.SyncronizePreference
+ADDED from AndroidManifest.xml:225:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:228:13
+	android:label
+		ADDED from AndroidManifest.xml:227:13
+	android:name
+		ADDED from AndroidManifest.xml:226:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.SYNCRONIZEPREFERENCE
+ADDED from AndroidManifest.xml:229:13
+action#com.halcyon.channelbridge.SYNCRONIZEPREFERENCE
+ADDED from AndroidManifest.xml:230:17
+	android:name
+		ADDED from AndroidManifest.xml:230:25
+activity#com.halcyon.channelbridge.LastInvoiceActivity
+ADDED from AndroidManifest.xml:235:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:238:13
+	android:label
+		ADDED from AndroidManifest.xml:237:13
+	android:name
+		ADDED from AndroidManifest.xml:236:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.LASTINVOICEACTIVITY
+ADDED from AndroidManifest.xml:239:13
+action#com.halcyon.channelbridge.LASTINVOICEACTIVITY
+ADDED from AndroidManifest.xml:240:17
+	android:name
+		ADDED from AndroidManifest.xml:240:25
+activity#com.halcyon.channelbridge.InvoiceViewActivity
+ADDED from AndroidManifest.xml:245:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:248:13
+	android:label
+		ADDED from AndroidManifest.xml:247:13
+	android:name
+		ADDED from AndroidManifest.xml:246:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.INVOICEVIEWACTIVITY
+ADDED from AndroidManifest.xml:249:13
+action#com.halcyon.channelbridge.INVOICEVIEWACTIVITY
+ADDED from AndroidManifest.xml:250:17
+	android:name
+		ADDED from AndroidManifest.xml:250:25
+activity#com.halcyon.channelbridge.PrintUtility
+ADDED from AndroidManifest.xml:255:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:258:13
+	android:label
+		ADDED from AndroidManifest.xml:257:13
+	android:name
+		ADDED from AndroidManifest.xml:256:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.PRINTUTILITY
+ADDED from AndroidManifest.xml:259:13
+action#com.halcyon.channelbridge.PRINTUTILITY
+ADDED from AndroidManifest.xml:260:17
+	android:name
+		ADDED from AndroidManifest.xml:260:25
+activity#com.halcyon.channelbridge.ReturnProductHistoryActivity
+ADDED from AndroidManifest.xml:265:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:268:13
+	android:label
+		ADDED from AndroidManifest.xml:267:13
+	android:name
+		ADDED from AndroidManifest.xml:266:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.RETURNPRODUCTHISTORYACTIVITY
+ADDED from AndroidManifest.xml:269:13
+action#com.halcyon.channelbridge.RETURNPRODUCTHISTORYACTIVITY
+ADDED from AndroidManifest.xml:270:17
+	android:name
+		ADDED from AndroidManifest.xml:270:25
+activity#com.halcyon.channelbridge.AboutApplication
+ADDED from AndroidManifest.xml:275:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:278:13
+	android:label
+		ADDED from AndroidManifest.xml:277:13
+	android:name
+		ADDED from AndroidManifest.xml:276:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.ABOUTAPPLICATION
+ADDED from AndroidManifest.xml:279:13
+action#com.halcyon.channelbridge.ABOUTAPPLICATION
+ADDED from AndroidManifest.xml:280:17
+	android:name
+		ADDED from AndroidManifest.xml:280:25
+activity#com.halcyon.channelbridge.AdministratorPreference
+ADDED from AndroidManifest.xml:285:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:288:13
+	android:label
+		ADDED from AndroidManifest.xml:287:13
+	android:name
+		ADDED from AndroidManifest.xml:286:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.ADMINISTRATORPREFERENCE
+ADDED from AndroidManifest.xml:289:13
+action#com.halcyon.channelbridge.ADMINISTRATORPREFERENCE
+ADDED from AndroidManifest.xml:290:17
+	android:name
+		ADDED from AndroidManifest.xml:290:25
+activity#com.halcyon.channelbridge.InvoiceHistoryActivity
+ADDED from AndroidManifest.xml:295:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:298:13
+	android:label
+		ADDED from AndroidManifest.xml:297:13
+	android:name
+		ADDED from AndroidManifest.xml:296:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.INVOICEHISTORYACTIVITY
+ADDED from AndroidManifest.xml:299:13
+action#com.halcyon.channelbridge.INVOICEHISTORYACTIVITY
+ADDED from AndroidManifest.xml:300:17
+	android:name
+		ADDED from AndroidManifest.xml:300:25
+activity#com.marina.channelbridgehelp.VideoListDemoActivity
+ADDED from AndroidManifest.xml:307:9
+	android:label
+		ADDED from AndroidManifest.xml:309:13
+	android:name
+		ADDED from AndroidManifest.xml:308:13
+intent-filter#android.intent.category.DEFAULT+com.halcyon.channelbridge.VideoListDemo
+ADDED from AndroidManifest.xml:310:13
+action#com.halcyon.channelbridge.VideoListDemo
+ADDED from AndroidManifest.xml:311:17
+	android:name
+		ADDED from AndroidManifest.xml:311:25
+service#com.halcyon.channelbridge.AutoSynchronize
+ADDED from AndroidManifest.xml:317:9
+	android:enabled
+		ADDED from AndroidManifest.xml:319:13
+	android:name
+		ADDED from AndroidManifest.xml:318:13
+service#com.halcyon.channelbridge.GPSAutoSynchronize
+ADDED from AndroidManifest.xml:320:9
+	android:enabled
+		ADDED from AndroidManifest.xml:322:13
+	android:name
+		ADDED from AndroidManifest.xml:321:13
+service#com.marina.channelbridgebs.AutoBackupService
+ADDED from AndroidManifest.xml:323:9
+	android:name
+		ADDED from AndroidManifest.xml:323:18
+service#com.marina.channelbridgebs.UploadGPSTask
+ADDED from AndroidManifest.xml:324:9
+	android:name
+		ADDED from AndroidManifest.xml:324:18
+receiver#com.halcyon.channelbridge.AutoSyncronizeTimer
+ADDED from AndroidManifest.xml:326:9
+	android:name
+		ADDED from AndroidManifest.xml:326:19
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:327:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:328:17
+	android:name
+		ADDED from AndroidManifest.xml:328:25
+receiver#com.halcyon.channelbridge.GPSAutoSyncronizeTimer
+ADDED from AndroidManifest.xml:331:9
+	android:name
+		ADDED from AndroidManifest.xml:331:19
+receiver#com.marina.channelbridgebs.AutoBackupBroadcast
+ADDED from AndroidManifest.xml:336:9
+	android:name
+		ADDED from AndroidManifest.xml:336:19
+receiver#com.marina.channelbridgebs.GPSBroadcast
+ADDED from AndroidManifest.xml:341:9
+	android:name
+		ADDED from AndroidManifest.xml:341:19
+receiver#com.halcyon.channelbridge.AutoSynchronizeStarter
+ADDED from AndroidManifest.xml:348:9
+	android:name
+		ADDED from AndroidManifest.xml:348:19
+receiver#com.halcyon.channelbridge.GPSAutoSynchronizeStarter
+ADDED from AndroidManifest.xml:350:9
+	android:name
+		ADDED from AndroidManifest.xml:350:20
+activity#com.halcyon.channelbridge.CollectionNote
+ADDED from AndroidManifest.xml:352:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:355:13
+	android:label
+		ADDED from AndroidManifest.xml:354:13
+	android:name
+		ADDED from AndroidManifest.xml:353:13

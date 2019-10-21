@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EBEBEB">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/myBlue"
+        android:id="@+id/relativeLayoutHeder">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Collection Note"
+            android:id="@+id/textView1"
+            android:textColor="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <com.halcyon.helpModel.TextViewFontAwesome
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/fw_collection_header"
+            android:id="@+id/textView2"
+            android:textSize="35sp"
+            android:textColor="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/textView1"
+            android:layout_toStartOf="@+id/textView1"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="33dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/myBlue"
+        android:id="@+id/relativeLayoutFooter">
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_collection_submit"
+            android:id="@+id/relativeLayoutsubmit">
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/relativeLayout23">
+
+                <com.halcyon.helpModel.TextViewFontAwesome
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/fw_collection_submit"
+                    android:id="@+id/textView41"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#000000"
+                    android:textSize="35sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Submit"
+                android:id="@+id/textView42"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/relativeLayout23"
+                android:layout_toEndOf="@+id/relativeLayout23"
+                android:textColor="#000000" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayoutHeder"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/relativeLayoutFooter">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#ffffff"
+            android:id="@+id/relativeLayout6">
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/relativeLayout133">
+
+                <com.halcyon.helpModel.TextViewFontAwesome
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/fw_collection_customer"
+                    android:id="@+id/textView111"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+            <AutoCompleteTextView
+                android:id="@+id/AutoComplete_CustomerName"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:completionThreshold="1"
+                android:ems="15"
+                android:inputType="text"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:hint="  Customer Name"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/relativeLayout133"
+                android:layout_toEndOf="@+id/relativeLayout133"
+                android:layout_marginLeft="5dp" />
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@+id/AutoComplete_CustomerName"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/relativeLayout14"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <com.halcyon.helpModel.TextViewFontAwesome
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/fw_collection_doller"
+                        android:id="@+id/textView14"
+                        android:textColor="#000000"
+                        android:textSize="30sp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Invoice Credit : "
+                    android:id="@+id/textView28"
+                    android:textColor="#000000"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/relativeLayout14"
+                    android:layout_toEndOf="@+id/relativeLayout14"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView_invoiceCradite"
+                    android:textColor="#000000"
+                    android:layout_alignTop="@+id/textView28"
+                    android:layout_toRightOf="@+id/textView28"
+                    android:layout_toEndOf="@+id/textView28" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textViewcustmomerNumber"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/AutoComplete_CustomerName"
+                android:layout_toEndOf="@+id/AutoComplete_CustomerName"
+                android:textColor="#ffffff" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/relativeLayout6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#ffffff"
+            android:id="@+id/relativeLayout10">
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/relativeLayout11">
+
+                <com.halcyon.helpModel.TextViewFontAwesome
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/fw_collection_money"
+                    android:id="@+id/textView11"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editTextCash"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/relativeLayout11"
+                android:layout_toEndOf="@+id/relativeLayout11"
+                android:layout_marginLeft="5dp"
+                android:hint="Cash Ammount"
+                android:textColor="#000000" />
+
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/relativeLayoutCheque">
+
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/relativeLayout15"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <com.halcyon.helpModel.TextViewFontAwesome
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/fw_collection_bank"
+                        android:id="@+id/textView15"
+                        android:textColor="#000000"
+                        android:textSize="30sp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Cheque Ammount : 0.0"
+                    android:id="@+id/editText_cheqe"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/relativeLayout15"
+                    android:layout_toEndOf="@+id/relativeLayout15"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000000" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/relativeLayout10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#ffffff"
+            android:id="@+id/relativeLayout12">
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/relativeLayout16">
+
+                <com.halcyon.helpModel.TextViewFontAwesome
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/fw_collection_invoice"
+                    android:id="@+id/textView16"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinnerInvoiceNum"
+                app:ms_dropdown_max_height="350dp"
+                app:ms_dropdown_height="wrap_content"
+                app:ms_background_color="#EBEBEB"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/relativeLayout16"
+                android:layout_toEndOf="@+id/relativeLayout16"
+                android:layout_marginLeft="5dp"
+                android:text="Invoice Number"
+                android:textColor="#000000"
+                android:textSize="13sp" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Add"
+                android:id="@+id/button_add"
+                android:background="@drawable/button_green"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:layout_alignTop="@+id/spinnerInvoiceNum"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/table_border"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/relativeLayout12"
+            android:id="@+id/relativeLayout13">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Invoice No"
+                android:id="@+id/textView29"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Cash"
+                android:id="@+id/textView30"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/textView29"
+                android:layout_toEndOf="@+id/textView29"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Cheque "
+                android:id="@+id/textView31"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/textView30"
+                android:layout_toEndOf="@+id/textView30"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Balance"
+                android:id="@+id/textView33"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/textView31"
+                android:layout_toEndOf="@+id/textView31"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Delete"
+                android:id="@+id/textView40"
+                android:layout_alignTop="@+id/textView33"
+                android:layout_toRightOf="@+id/textView33"
+                android:layout_toEndOf="@+id/textView33"
+                android:layout_marginLeft="150dp"
+                android:textColor="#000000" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/relativeLayout13"
+            android:layout_alignLeft="@+id/relativeLayout13"
+            android:layout_alignStart="@+id/relativeLayout13"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp">
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listViewCollecton"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

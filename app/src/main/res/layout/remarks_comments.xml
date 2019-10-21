@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Added to CB - jona :) -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/labelRemarksComments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="0.08"
+            android:text="@string/remarks"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1.04"
+            android:gravity="right"
+            android:text="@string/date"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#b0c4de"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="280dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="279dp"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+                    <TableLayout
+                        android:id="@+id/tblRemarks"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:background="#000000"
+                        android:padding="10dp"
+                        android:stretchColumns="0,1,">
+
+                        <TableRow
+                            android:id="@+id/trTableHeadings"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#d3d3d3"
+                            android:padding="5dp"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:id="@+id/labelDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="33"
+                                android:padding="5dp"
+                                android:text="@string/date"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:id="@+id/labelComment"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="33"
+                                android:padding="5dp"
+                                android:text="@string/comment"
+                                android:textColor="#000000" />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|right"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <Button
+                android:id="@+id/bDone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:gravity="right"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/done" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="image_border_start">#645E5E</color>
+    <color name="image_border_end">#645E5E</color>
+    <color name="image_border_center">#645E5E</color>
+    <color name="default_back_color">#645E5E</color>
+    <color name="black">#000000</color>
+    <color name="grey_300">#e0e0e0</color>
+    <color name="blue_grey_500">#607d8b</color>
+    <color name="yellow">#ffff66</color>
+    <color name="white">#ffffff</color>
+    <color name="iconBlue">#428bca</color>
+
+    //Himanshu
+    <color name="myBlue">#3399cc</color>
+    <color name="myRed">#fb0000</color>
+    <color name="mywhite">#ffffff</color>
+    <color name="myGreen">#2ecc71</color>
+    <color name="myPUMPKIN">#d35400</color>
+    <color name="highlight_yellow">#E9D460</color>
+    <color name="highlight_orange">#e67e22</color>
+    <color name="highlight_PUMPKIN">#f2be90</color>
+
+    <color name="Achievement_dialog_background">#f4f6f4</color>
+
+
+
+
+
+</resources>

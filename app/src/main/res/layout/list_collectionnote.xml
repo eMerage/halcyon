@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/relativeLayout12"
+        android:id="@+id/relativeLayout13">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Invoice No"
+            android:id="@+id/textViewlistinvoiceno"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Cash"
+            android:id="@+id/textViewlistcash"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textViewlistinvoiceno"
+            android:layout_toEndOf="@+id/textViewlistinvoiceno"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Cheque "
+            android:id="@+id/textViewlistcheque"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textViewlistcash"
+            android:layout_toEndOf="@+id/textViewlistcash"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Balance"
+            android:id="@+id/textViewlistbalanece"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textViewlistcheque"
+            android:layout_toEndOf="@+id/textViewlistcheque"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:text="Delete"
+            android:id="@+id/buttonlistDeete"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textViewlistbalanece"
+            android:layout_toEndOf="@+id/textViewlistbalanece"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="105dp"
+            android:textColor="#ffffff"
+            android:background="@color/myRed" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

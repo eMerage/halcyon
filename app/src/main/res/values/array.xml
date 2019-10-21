@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="syncronizePreference">
+        <item>Only download data</item>
+        <item>Only upload data</item>
+        <item>Upload and download</item>
+    </string-array>
+    <string-array name="syncronizePreferenceValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="planets_array">
+        <item>Select Customer Status..</item>
+        <item>DIRECT CUSTOMER</item>
+        <item>DOCTOR</item>
+        <item>GROCERY</item>
+        <item>HOSPITAL</item>
+        <item>OSUSALA</item>
+        <item>PHARMACY</item>
+        <item>SUPERMARKETS</item>
+        <item>MEDICAL CENTER</item>
+
+    </string-array>
+
+
+    <string-array name="district">
+        <item> Select District..</item>
+        <item> AMPARA</item>
+        <item> ANURADHAPURA</item>
+        <item> BADULLA</item>
+        <item> BATTICALOA</item>
+        <item> COLOMBO</item>
+        <item>GALLE</item>
+        <item> GAMPAHA</item>
+        <item> HAMBANTOTA</item>
+        <item> JAFFNA</item>
+        <item> KALUTARA</item>
+        <item> KANDY</item>
+        <item> KEGALLA</item>
+        <item> KILINOCHCHI</item>
+        <item> KURUNEGALA</item>
+        <item> MANNAR</item>
+        <item> MATALE</item>
+        <item> MATARA</item>
+        <item> MONERAGALA</item>
+        <item> MULLAITIVU</item>
+        <item> NUWARA ELIYA</item>
+        <item> POLONNARUWA</item>
+        <item> PUTTALAM</item>
+        <item> RATNAPURA</item>
+        <item> TRINCOMALEE</item>
+        <item> VAVUNIYA </item>
+</string-array>
+    <string-array name="Location">
+        <item> Distributor Point</item>
+    </string-array>
+
+
+    <string-array name="ExtraCustomerRemarksArray">
+        <item>Missed in Last Visit</item>
+        <item>Urgent Order - Call Order</item>
+    </string-array>
+
+    <string-array name="ItineraryRemarksArray">
+        <item>No Order</item>
+        <item>Payment Delay</item>
+        <item>Shop Closed</item>
+        <item>BlackList</item>
+    </string-array>
+
+
+</resources>

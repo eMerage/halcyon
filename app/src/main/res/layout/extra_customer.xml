@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Changed all names into the new format :) - Jona -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvExtraCustomerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_extra_customer"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <AutoCompleteTextView
+                android:id="@+id/etSearchCustomer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:completionThreshold="1"
+                android:ems="15"
+                android:hint="@string/search" />
+
+            <ImageButton
+                android:id="@+id/bClearSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:src="@drawable/content_remove" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/date"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <!--
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.21"
+            android:contentDescription="@string/logo"
+            android:gravity="right"
+            android:src="@drawable/ic_launcher" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="3dp"
+        android:background="#645E5E"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <!--
+        <TableLayout
+            android:id="@+id/tlCustomerTableHeadings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:stretchColumns="0,1,2,3,4,5" >
+
+            <TableRow
+                android:id="@+id/trHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#d3d3d3" >
+
+                <TextView
+                    android:id="@+id/LabelCustomerChecked"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:padding="3dip"
+                    android:text="@string/select"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/labelCustomerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="100dp"
+                    android:gravity="left"
+                    android:padding="3dip"
+                    android:text="@string/customer_name"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/labelAddress"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:padding="3dp"
+                    android:text="@string/address"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/labelTelephone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:padding="3dip"
+                    android:text="@string/telephone"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/labelCustomerStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:padding="3dip"
+                    android:text="@string/customer_status"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -->
+
+        <ScrollView
+            android:id="@+id/sk"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_weight="1.99"
+            android:fillViewport="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="278dp"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TableLayout
+                    android:id="@+id/tlCustomerTable"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.23"
+                    android:background="#000000"
+                    android:stretchColumns="0,1,2,3,4,5">
+
+                    <!--    <TableRow
+                           android:id="@+id/trHeading"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:background="#d3d3d3" >
+
+                           <TextView
+                               android:id="@+id/LabelCustomerChecked"
+                               android:layout_width="5dp"
+                               android:layout_height="wrap_content"
+                               android:gravity="left"
+                               android:padding="3dip"
+                               android:text="@string/select"
+                               android:textColor="#000000"
+                               android:textStyle="bold" />
+
+                           <TextView
+                               android:id="@+id/labelCustomerName"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_marginRight="100dp"
+                               android:gravity="left"
+                               android:padding="3dip"
+                               android:text="@string/customer_name"
+                               android:textColor="#000000"
+                               android:textStyle="bold" />
+
+                           <TextView
+                               android:id="@+id/labelAddress"
+                               android:layout_width="20dp"
+                               android:layout_height="wrap_content"
+                               android:gravity="left"
+                               android:padding="3dp"
+                               android:text="@string/address"
+                               android:textColor="#000000"
+                               android:textStyle="bold" />
+
+                           <TextView
+                               android:id="@+id/labelTelephone"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:gravity="left"
+                               android:padding="3dip"
+                               android:text="@string/telephone"
+                               android:textColor="#000000"
+                               android:textStyle="bold" />
+
+                           <TextView
+                               android:id="@+id/labelCustomerStatus"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:gravity="left"
+                               android:padding="3dip"
+                               android:text="@string/customer_status"
+                               android:textColor="#000000"
+                               android:textStyle="bold" />
+                       </TableRow> -->
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bSaveExtraCustomer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:text="@string/add_selected_to_itinerary" />
+
+            <Button
+                android:id="@+id/bGoBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

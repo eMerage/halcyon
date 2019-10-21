@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:background="@color/myBlue">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:text="Brand"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/mywhite" />
+
+        <Spinner
+            android:id="@+id/spPrinciple"
+            android:layout_width="300dip"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toEndOf="@+id/textView21"
+            android:layout_toRightOf="@+id/textView21"
+            android:background="@color/mywhite"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/spCategory"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@color/mywhite"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/spCategory"
+            android:layout_toStartOf="@+id/spCategory"
+            android:text="Category"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/mywhite" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/myBlue"
+        android:id="@+id/relativeLayout4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Total Value : 0"
+            android:id="@+id/textViewtot"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free Issue"
+            android:id="@+id/checkBox_freeIssues"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Next"
+            android:id="@+id/btnNextToPayment"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:background="#ffffff"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/relativeLayout8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout7">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/tblheader"
+            android:showDividers="middle"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></TableLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout7"
+        android:layout_alignLeft="@+id/relativeLayout8"
+        android:layout_alignStart="@+id/relativeLayout8"
+        android:layout_above="@+id/relativeLayout4">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+
+            android:scrollbarFadeDuration="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tblTest"
+                android:showDividers="middle">
+
+            </TableLayout>
+
+
+
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

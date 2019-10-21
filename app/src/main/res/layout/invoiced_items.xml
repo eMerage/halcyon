@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp"></LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/tlInvoicedItems"
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:layout_weight="1.23"
+                    android:background="#000000"
+                    android:stretchColumns="0,1,2">
+
+                    <TableRow
+                        android:id="@+id/trHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#d3d3d3">
+
+                        <TextView
+                            android:id="@+id/labelProduct"
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="@string/product"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/labelNormalQty"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="@string/normal_qty"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/LabelTotalValue"
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:padding="3dp"
+                            android:text="@string/total_value"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bDone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/done"></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

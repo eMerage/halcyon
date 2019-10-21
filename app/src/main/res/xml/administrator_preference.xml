@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="etPrefLastInvoiceNumber"
+        android:summary="@string/enter_last_invoice_info"
+        android:title="@string/enter_last_invoice" />
+    <Preference
+        android:key="etPrefLastCustomerNumber"
+        android:summary="@string/enter_last_customer_info"
+        android:title="@string/enter_last_customer" />
+    <Preference
+        android:key="prefBackupDays"
+        android:summary="@string/enter_the_number_of_days_for_back_up_info"
+        android:title="@string/enter_the_number_of_days_for_back_up" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="cbPrefEnableNoHistoryReturns"
+        android:summary="@string/enable_return_without_history_info"
+        android:title="@string/enable_return_without_history" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="cbPrefEnableCheckDetails"
+        android:summary="@string/enable_cheque_detail_entry_info"
+        android:title="@string/enable_cheque_detail_entry" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="cbPrefEnableAddExtraCustomer"
+        android:summary="@string/enable_extra_customer_add_info"
+        android:title="@string/enable_extra_customer_add" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="cbPrefPrePrintInvoice"
+        android:summary="@string/enable_pre_printed_invoice_info"
+        android:title="@string/enable_pre_printed_invoice" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="cbPrefProductAvg"
+        android:summary="@string/enable_product_avg_info"
+        android:title="@string/enable_product_avg" />
+
+</PreferenceScreen>
