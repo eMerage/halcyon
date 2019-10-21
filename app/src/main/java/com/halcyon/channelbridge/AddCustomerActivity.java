@@ -6,6 +6,7 @@ import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -52,9 +53,11 @@ import com.halcyon.channelbridgebs.UploadNewCustomersTask;
 import com.halcyon.channelbridgedb.AutoSyncOnOffFlag;
 import com.halcyon.channelbridgedb.Customers;
 import com.halcyon.channelbridgedb.CustomersPendingApproval;
+import com.halcyon.channelbridgedb.District;
 import com.halcyon.channelbridgedb.ImageGallery;
 import com.halcyon.channelbridgedb.Itinerary;
 import com.halcyon.channelbridgedb.Sequence;
+import com.halcyon.channelbridgedb.Town;
 import com.halcyon.channelbridgews.WebService;
 
 
@@ -772,6 +775,14 @@ public class AddCustomerActivity extends Activity implements LocationListener {
                 GetGPS();
             }
         });
+
+
+
+
+
+        new InsertDistrictAndTownTask(AddCustomerActivity.this).execute();
+
+
 
     }
 
@@ -1526,4 +1537,66 @@ public class AddCustomerActivity extends Activity implements LocationListener {
         return deviceId + "_" + num + genCode.toUpperCase();
 
     }
+
+    public class InsertDistrictAndTownTask extends AsyncTask<Void, Void, Void> {
+
+        private final Context context;
+
+        District district;
+        Town town;
+        ProgressDialog dialog;
+
+
+        public InsertDistrictAndTownTask(Context context) {
+            this.context = context;
+
+            district = new District(context);
+            town =  new Town(context);
+
+        }
+
+        @Override
+        protected void onPreExecute() {
+            try {
+                dialog = new ProgressDialog(context);
+                dialog.setCancelable(false);
+                dialog.setMessage("Fetching User Data from Server...");
+                dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+                dialog.setProgress(0);
+
+                dialog.setMax(100);
+                dialog.show();
+            } catch (Exception e) {
+                dialog.dismiss();
+            }
+
+        }
+
+        protected void onProgressUpdate(Void... progress) {
+        }
+
+        protected void onPostExecute(Void returnCode) {
+            dialog.dismiss();
+
+        }
+
+        @Override
+        protected Void doInBackground(Void... params) {
+             if(!district.checkDistrictAvalability()){
+
+                 district.insert_District(1,"Gampaha");
+
+                 town.openWritableDatabase();
+                 town.insert_Town(1,"Negombo",1);
+                 town.closeDatabase();
+             }else {
+
+             }
+
+            return null;
+        }
+
+
+    }
+
 }

@@ -21,6 +21,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
 
 
+
+        Town.onCreate(db);
+        District.onCreate(db);
         Delivery.onCreate(db);
         Target.onCreate(db);
         Approval_Persons.onCreate(db);
@@ -100,6 +103,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         DealerSales.onUpgrade(db,oldVersion,newVersion);
         Target.onUpgrade(db,oldVersion,newVersion);
         Delivery.onUpgrade(db,oldVersion,newVersion);
+        District.onUpgrade(db,oldVersion,newVersion);
+        Town.onUpgrade(db,oldVersion,newVersion);
         // VideoList.onUpgrade(db,oldVersion,newVersion);
     }
 
