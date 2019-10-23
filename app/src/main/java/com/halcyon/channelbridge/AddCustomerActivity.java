@@ -61,9 +61,15 @@ import com.halcyon.channelbridgedb.Town;
 import com.halcyon.channelbridgews.WebService;
 
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.math.BigInteger;
 import java.net.SocketException;
 import java.security.SecureRandom;
@@ -1584,11 +1590,25 @@ public class AddCustomerActivity extends Activity implements LocationListener {
         protected Void doInBackground(Void... params) {
              if(!district.checkDistrictAvalability()){
 
-                 district.insert_District(1,"Gampaha");
+                /* district.insert_District(1,"Gampaha");
 
                  town.openWritableDatabase();
                  town.insert_Town(1,"Negombo",1);
-                 town.closeDatabase();
+                 town.closeDatabase();*/
+
+                 try {
+                     JSONArray m_jArry = new JSONArray(loadJSONFromAsset());
+
+
+
+
+                 } catch (JSONException e) {
+                     e.printStackTrace();
+                 }
+
+
+
+
              }else {
 
              }
@@ -1597,6 +1617,22 @@ public class AddCustomerActivity extends Activity implements LocationListener {
         }
 
 
+    }
+
+    public String loadJSONFromAsset() {
+        String json = null;
+        try {
+            InputStream is = this.getAssets().open("districtlist.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
     }
 
 }

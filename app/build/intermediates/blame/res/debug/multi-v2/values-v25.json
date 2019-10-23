@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Project\\Android\\CBHalcyon - New\\App 1\\halcyon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "outputFile": "D:\\Project\\Android\\halcyon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Himanshu Emerge\\.gradle\\caches\\transforms-2\\files-2.1\\2efe2ad4962b6e80a32836c4c366dc62\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\6bf65060fd8c7adffef9e4e87745a980\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

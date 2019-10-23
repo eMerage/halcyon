@@ -1,4 +1,4 @@
-#Mon Oct 21 16:55:00 IST 2019
-base.0=E\:\\Project\\Android\\CBHalcyon - New\\App 1\\halcyon\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+#Wed Oct 23 20:13:25 IST 2019
+base.0=D\:\\Project\\Android\\halcyon\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex

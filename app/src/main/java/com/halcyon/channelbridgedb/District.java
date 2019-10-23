@@ -12,13 +12,16 @@ public class District {
     private static final String KEY_District = "district";
     private static final String KEY_IS_ACTIVE = "isActive";
     String[] columns = new String[]{KEY_ROW_ID, KEY_DistrictID, KEY_IS_ACTIVE, KEY_District};
-    private static final String TABLE_NAME = "District";
+    private static final String TABLE_NAME = "DistrictTAB";
 
     private static final String COLLECTION_NOTE_CREATE = "CREATE TABLE " + TABLE_NAME
             + " (" + KEY_ROW_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
-            + KEY_DistrictID + "INTEGER ,"
+            + KEY_DistrictID + " INTEGER ,"
             + KEY_District + " TEXT ,"
             + KEY_IS_ACTIVE + " INTEGER " + " );";
+
+
+
     public final Context customerContext;
     public DatabaseHelper databaseHelper;
     private SQLiteDatabase database;
@@ -82,6 +85,8 @@ public class District {
     public boolean checkDistrictAvalability() throws SQLException {
         Boolean result = false;
 
+        openReadableDatabase();
+
         Cursor cursor = database.rawQuery("select * from District ",null);
 
         if(cursor.getCount() == 0){
@@ -89,6 +94,8 @@ public class District {
         }else {
             result = true;
         }
+
+        closeDatabase();
 
         return result;
 

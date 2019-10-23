@@ -44,6 +44,7 @@ import com.halcyon.channelbridgedb.DEL_Outstandiing;
 import com.halcyon.channelbridgedb.DatabaseHelper;
 import com.halcyon.channelbridgedb.Delivery;
 import com.halcyon.channelbridgedb.DiscountStructures;
+import com.halcyon.channelbridgedb.District;
 import com.halcyon.channelbridgedb.InvoicePaymentType;
 import com.halcyon.channelbridgedb.Itinerary;
 import com.halcyon.channelbridgedb.Master_Banks;
@@ -52,14 +53,20 @@ import com.halcyon.channelbridgedb.Products;
 import com.halcyon.channelbridgedb.Reps;
 import com.halcyon.channelbridgedb.Sequence;
 import com.halcyon.channelbridgedb.Target;
+import com.halcyon.channelbridgedb.Town;
 import com.halcyon.channelbridgedb.UserLogin;
 import com.halcyon.channelbridgews.WebService;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.SocketException;
 import java.sql.SQLException;
@@ -117,7 +124,7 @@ public class CBMainActivity extends Activity implements LocationListener {
             initialize();
 
         }
-
+        new InsertDistrictAndTownTask(this).execute();
 
     }
 
@@ -1798,6 +1805,92 @@ public class CBMainActivity extends Activity implements LocationListener {
 
         return rtnStr;
 
+    }
+
+    public class InsertDistrictAndTownTask extends AsyncTask<Void, Void, Void> {
+
+        private final Context context;
+
+        District district;
+        Town town;
+        ProgressDialog dialog;
+
+
+        public InsertDistrictAndTownTask(Context context) {
+            this.context = context;
+
+            district = new District(context);
+            town =  new Town(context);
+
+        }
+
+        @Override
+        protected void onPreExecute() {
+            System.out.println("cccccccccccc : onPreExecute ");
+        }
+
+        protected void onProgressUpdate(Void... progress) {
+        }
+
+        protected void onPostExecute(Void returnCode) {
+            System.out.println("cccccccccccc : onPostExecute ");
+
+        }
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            if(!district.checkDistrictAvalability()){
+
+                /* district.insert_District(1,"Gampaha");
+
+                 town.openWritableDatabase();
+                 town.insert_Town(1,"Negombo",1);
+                 town.closeDatabase();*/
+
+                try {
+                    JSONArray m_jArry = new JSONArray(loadJSONFromAsset());
+
+                    for (int i = 0; i < m_jArry.length(); i++) {
+
+                        JSONObject jo_inside = m_jArry.getJSONObject(i);
+
+                        System.out.println("cccccccccccc : "+jo_inside);
+                    }
+
+
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                    System.out.println("cccccccccccc : "+e);
+                }
+
+
+
+
+            }else {
+
+            }
+
+            return null;
+        }
+
+
+    }
+
+    public String loadJSONFromAsset() {
+        String json = null;
+        try {
+            InputStream is = this.getAssets().open("districtlist.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
     }
 
 
