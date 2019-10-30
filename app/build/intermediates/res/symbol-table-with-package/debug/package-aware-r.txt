@@ -1508,6 +1508,7 @@ id textViewlistcash
 id textViewlistcheque
 id textViewlistinvoiceno
 id textViewtot
+id text_lable
 id textview_achievement
 id textview_achievement_presentage
 id textview_customer
@@ -1781,6 +1782,7 @@ layout select_dialog_singlechoice_material
 layout single_list_item
 layout support_simple_spinner_dropdown_item
 layout test
+layout test_spinner
 layout tooltip
 layout unload_popup
 layout unload_popup_list

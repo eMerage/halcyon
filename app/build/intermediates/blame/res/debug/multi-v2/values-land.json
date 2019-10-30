@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Project\\Android\\halcyon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "E:\\Project\\Android\\CBHalcyon - New\\App 1\\halcyon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\f40c40c3f6e5990eea0800e3fabb2663\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Himanshu Emerge\\.gradle\\caches\\transforms-2\\files-2.1\\6e3d969be04bff725317b2f29a3c6b20\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\6bf65060fd8c7adffef9e4e87745a980\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Himanshu Emerge\\.gradle\\caches\\transforms-2\\files-2.1\\2efe2ad4962b6e80a32836c4c366dc62\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

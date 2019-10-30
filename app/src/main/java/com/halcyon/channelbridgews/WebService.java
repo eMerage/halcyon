@@ -34,7 +34,7 @@ public class WebService {
     //Live
 //   public final String SOAP_ADDRESS = "http://halcyonsfa.emerge.lk:8082/CB_Halcyon_PVT/WebServices/WebServiceChannelBridge.asmx";
 
-  public final String SOAP_ADDRESS = "http://220.247.244.22:8082/Cb_PharmAce_Demo/WebServices/WebServiceChannelBridge.asmx";
+ // public final String SOAP_ADDRESS = "http://220.247.244.22:8082/Cb_PharmAce_Demo/WebServices/WebServiceChannelBridge.asmx";
 
 
   // public final String SOAP_ADDRESS = "http://halcyonsfa.emerge.lk:8082/eMerge/WebServices/WebServiceChannelBridge.asmx";
@@ -44,7 +44,7 @@ public class WebService {
 
 
 
- // public final String SOAP_ADDRESS = "http://halcyonsfa.emerge.lk:8082/eMerge/WebServices/WebServiceChannelBridge.asmx";
+  public final String SOAP_ADDRESS = "http://halcyonsfa.emerge.lk:8082/CB_Halcyon_DEV/WebServices/WebServiceChannelBridge.asmx";
 
 
 

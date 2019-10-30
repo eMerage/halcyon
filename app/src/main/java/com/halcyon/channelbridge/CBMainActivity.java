@@ -170,7 +170,7 @@ public class CBMainActivity extends Activity implements LocationListener {
                             }
 
 
-                        }else {
+                        } else {
 
                             new DownloadFilesTask(CBMainActivity.this).execute(txtDeviceId.getText().toString());
 
@@ -288,7 +288,7 @@ public class CBMainActivity extends Activity implements LocationListener {
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         if (requestCode == PERMISSIONS_REQUEST_READ_PHONE_STATE && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             new DownloadFilesTask(CBMainActivity.this).execute(txtDeviceId.getText().toString());
-        }else {
+        } else {
             Toast.makeText(this, "PERMISSION NOT GRANTED", Toast.LENGTH_SHORT).show();
         }
     }
@@ -647,9 +647,6 @@ public class CBMainActivity extends Activity implements LocationListener {
 
         return responseArr;
     }
-
-
-
 
 
     private String saveOutStandData(ArrayList<String[]> custData) {
@@ -1011,9 +1008,6 @@ public class CBMainActivity extends Activity implements LocationListener {
     }
 
 
-
-
-
     private String saveInvoiceDeliveryStatus(ArrayList<String[]> invStatus) {
         String rtnStr = "";
         Delivery deliveryDB = new Delivery(this);
@@ -1022,16 +1016,15 @@ public class CBMainActivity extends Activity implements LocationListener {
         for (int i = 0; i < invStatus.size(); i++) {
             String[] custDetails = invStatus.get(i);
 
-            int satus=0;
+            int satus = 0;
 
             try {
                 satus = Integer.parseInt(custDetails[5]);
-            }catch (NumberFormatException num){
+            } catch (NumberFormatException num) {
 
             }
 
-            deliveryDB.insertDelivery(custDetails[0],custDetails[1], custDetails[2], custDetails[3], custDetails[4],satus,custDetails[6]);
-
+            deliveryDB.insertDelivery(custDetails[0], custDetails[1], custDetails[2], custDetails[3], custDetails[4], satus, custDetails[6]);
 
 
         }
@@ -1307,9 +1300,9 @@ public class CBMainActivity extends Activity implements LocationListener {
                 emiedr = "";
             }
 
-            if(!emi.equals(emiedr)){
-              returnValue =6;
-            }else
+            //  if(!emi.equals(emiedr)){
+            //    returnValue =6;
+            //  }else
             if (response.get(0) != "No Data" && response.get(0) != "No Connection") {
 
                 publishProgress(1);
@@ -1743,13 +1736,11 @@ public class CBMainActivity extends Activity implements LocationListener {
             Sequence sequence = new Sequence(CBMainActivity.this);
             sequence.openReadableDatabase();
 
-            if(invoceNum==null){
+            if (invoceNum == null) {
 
-            }else {
+            } else {
                 long result = sequence.insertSequence(invoceNum, "invoice");
             }
-
-
 
 
             sequence.closeDatabase();
@@ -1783,6 +1774,7 @@ public class CBMainActivity extends Activity implements LocationListener {
 
         return response;
     }
+
     private String saveReturnLastInvoice(String retruninvoceNum) {
         String rtnStr = "";
         try {
@@ -1790,8 +1782,8 @@ public class CBMainActivity extends Activity implements LocationListener {
             Sequence sequence = new Sequence(CBMainActivity.this);
             sequence.openReadableDatabase();
 
-            if(retruninvoceNum==null){
-            }else {
+            if (retruninvoceNum == null) {
+            } else {
                 long result = sequence.insertSequence(retruninvoceNum, "return_header");
             }
 
@@ -1820,54 +1812,55 @@ public class CBMainActivity extends Activity implements LocationListener {
             this.context = context;
 
             district = new District(context);
-            town =  new Town(context);
+            town = new Town(context);
 
         }
 
         @Override
         protected void onPreExecute() {
-            System.out.println("cccccccccccc : onPreExecute ");
+
         }
 
         protected void onProgressUpdate(Void... progress) {
         }
 
         protected void onPostExecute(Void returnCode) {
-            System.out.println("cccccccccccc : onPostExecute ");
 
         }
 
         @Override
         protected Void doInBackground(Void... params) {
-            if(!district.checkDistrictAvalability()){
-
-                /* district.insert_District(1,"Gampaha");
-
-                 town.openWritableDatabase();
-                 town.insert_Town(1,"Negombo",1);
-                 town.closeDatabase();*/
-
+            if (!district.checkDistrictAvalability()) {
+                district.openWritableDatabase();
+                town.openWritableDatabase();
                 try {
-                    JSONArray m_jArry = new JSONArray(loadJSONFromAsset());
-
-                    for (int i = 0; i < m_jArry.length(); i++) {
-
-                        JSONObject jo_inside = m_jArry.getJSONObject(i);
-
-                        System.out.println("cccccccccccc : "+jo_inside);
+                    JSONArray district_jArry = new JSONArray(loadDistrictJSONFromAsset());
+                    for (int i = 0; i < district_jArry.length(); i++) {
+                        JSONObject jo_inside = district_jArry.getJSONObject(i);
+                        district.insert_District(Integer.parseInt(jo_inside.getString("districtID")), jo_inside.getString("districtName"));
                     }
+                    district.openWritableDatabase();
 
+                    JSONArray town_jArry = new JSONArray(loadTownJSONFromAsset());
+                    for (int i = 0; i < town_jArry.length(); i++) {
+                        JSONObject jo_inside_town = town_jArry.getJSONObject(i);
 
+                       /* System.out.println("cccccccccccc townID : "+jo_inside_town.getString("townID"));
+                        System.out.println("cccccccccccc townName : "+jo_inside_town.getString("townName"));
+                        System.out.println("cccccccccccc districtID : "+jo_inside_town.getString("districtID"));*/
+
+                        town.insert_Town(Integer.parseInt(jo_inside_town.getString("townID")), jo_inside_town.getString("townName"), Integer.parseInt(jo_inside_town.getString("districtID")));
+                    }
+                    town.openWritableDatabase();
 
                 } catch (JSONException e) {
                     e.printStackTrace();
-                    System.out.println("cccccccccccc : "+e);
+                    district.openWritableDatabase();
+                    town.openWritableDatabase();
+
                 }
 
-
-
-
-            }else {
+            } else {
 
             }
 
@@ -1877,10 +1870,27 @@ public class CBMainActivity extends Activity implements LocationListener {
 
     }
 
-    public String loadJSONFromAsset() {
+    public String loadDistrictJSONFromAsset() {
         String json = null;
         try {
             InputStream is = this.getAssets().open("districtlist.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
+    }
+
+
+    public String loadTownJSONFromAsset() {
+        String json = null;
+        try {
+            InputStream is = this.getAssets().open("towns.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);

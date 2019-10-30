@@ -6,13 +6,19 @@ import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 
+import com.halcyon.Entity.CustomerEntity;
+import com.halcyon.Entity.DistrictEntity;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class District {
     private static final String KEY_ROW_ID = "row_id";
     private static final String KEY_DistrictID = "districtID";
     private static final String KEY_District = "district";
     private static final String KEY_IS_ACTIVE = "isActive";
     String[] columns = new String[]{KEY_ROW_ID, KEY_DistrictID, KEY_IS_ACTIVE, KEY_District};
-    private static final String TABLE_NAME = "DistrictTAB";
+    private static final String TABLE_NAME = "districtTAB";
 
     private static final String COLLECTION_NOTE_CREATE = "CREATE TABLE " + TABLE_NAME
             + " (" + KEY_ROW_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
@@ -87,7 +93,7 @@ public class District {
 
         openReadableDatabase();
 
-        Cursor cursor = database.rawQuery("select * from District ",null);
+        Cursor cursor = database.rawQuery("select * from districtTAB ",null);
 
         if(cursor.getCount() == 0){
             result = false;
@@ -99,7 +105,23 @@ public class District {
 
         return result;
 
-
     }
+
+
+    public ArrayList<DistrictEntity> getAllDistricts() {
+        openReadableDatabase();
+        ArrayList<DistrictEntity> districtsList = new  ArrayList<DistrictEntity>();
+        Cursor cursor = database.query(TABLE_NAME, columns, null, null, null, null, null);
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+            districtsList.add(new DistrictEntity(cursor.getInt(1),cursor.getString(3)));
+            cursor.moveToNext();
+        }
+
+        cursor.close();
+        closeDatabase();
+        return districtsList;
+    }
+
 
 }

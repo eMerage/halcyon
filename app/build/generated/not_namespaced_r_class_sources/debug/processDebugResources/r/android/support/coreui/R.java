@@ -101,8 +101,8 @@ public final class R {
         public static final int right_side = 0x7f080219;
         public static final int text = 0x7f080254;
         public static final int text2 = 0x7f080255;
-        public static final int time = 0x7f0802b3;
-        public static final int title = 0x7f0802bd;
+        public static final int time = 0x7f0802b4;
+        public static final int title = 0x7f0802be;
     }
     public static final class integer {
         private integer() {}

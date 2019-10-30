@@ -133,6 +133,9 @@ public class Branch {
         closeDatabase();
         return  bankList;
     }
+
+
+
     public List<String> GetBranchName() {
         List<String> loadInvoiceNumberList = new ArrayList();
         try {

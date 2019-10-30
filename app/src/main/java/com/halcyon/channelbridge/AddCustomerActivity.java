@@ -36,6 +36,7 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
@@ -48,7 +49,11 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.halcyon.Entity.DistrictEntity;
+import com.halcyon.Entity.TownEntity;
 import com.halcyon.channelbridge.R;
+import com.halcyon.channelbridgeaddapters.DistrictSpinnerAdapter;
+import com.halcyon.channelbridgeaddapters.TownAutocompleteAdapter;
 import com.halcyon.channelbridgebs.UploadNewCustomersTask;
 import com.halcyon.channelbridgedb.AutoSyncOnOffFlag;
 import com.halcyon.channelbridgedb.Customers;
@@ -197,6 +202,8 @@ public class AddCustomerActivity extends Activity implements LocationListener {
         this.finish();
     }*/
 
+
+    String selectedTown = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
@@ -244,6 +251,8 @@ public class AddCustomerActivity extends Activity implements LocationListener {
         btsetGps = (Button) findViewById(R.id.bsetGps);
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
+
+        addDistrict();
 
         if (!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
 
@@ -396,7 +405,7 @@ public class AddCustomerActivity extends Activity implements LocationListener {
                         final String cName = txtName.getText().toString();
                         String cAddress = txtAddress.getText().toString();
                         String cArea = txtArea.getText().toString();
-                        String cTown = txtTown.getText().toString();
+                        String cTown =selectedTown;
                         String cDistrict = txtDistrict.getSelectedItem().toString();
                         String cTelephone = txtTelephone.getText().toString();
                         String cFax = txtFax.getText().toString();
@@ -476,9 +485,11 @@ public class AddCustomerActivity extends Activity implements LocationListener {
                         AlertDialog.Builder alertDialog = new AlertDialog.Builder(AddCustomerActivity.this, AlertDialog.THEME_HOLO_DARK);
                         alertDialog.setTitle("Send New Customer");
                         alertDialog.setMessage("New customer send successfully");
+                        selectedTown = "";
 
                         alertDialog.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
+
 
 
                                 // Intent iternaryListActivity = new Intent(
@@ -786,7 +797,7 @@ public class AddCustomerActivity extends Activity implements LocationListener {
 
 
 
-        new InsertDistrictAndTownTask(AddCustomerActivity.this).execute();
+
 
 
 
@@ -868,10 +879,10 @@ public class AddCustomerActivity extends Activity implements LocationListener {
                 this, android.R.layout.simple_dropdown_item_1line, areaList);
         ((AutoCompleteTextView) txtArea).setAdapter(areaAdaperList);
 
-        ArrayList<String> townList = getTownList();
+    /*    ArrayList<String> townList = getTownList();
         ArrayAdapter<String> townAdapterList = new ArrayAdapter<String>(this,
                 android.R.layout.simple_dropdown_item_1line, townList);
-        ((AutoCompleteTextView) txtTown).setAdapter(townAdapterList);
+        ((AutoCompleteTextView) txtTown).setAdapter(townAdapterList);*/
 
         //ArrayList<String> districtList = getDistrictList();
         //	ArrayAdapter<String> districtAdapterList = new ArrayAdapter<String>(
@@ -973,7 +984,7 @@ public class AddCustomerActivity extends Activity implements LocationListener {
         if ((txtName.getText().toString().length() != 0)
                 || (txtAddress.getText().toString().length() != 0)
                 || (txtArea.getText().toString().length() != 0)
-                || (txtTown.getText().toString().length() != 0)
+                || (selectedTown.length() != 0)
                 || (txtDistrict.getSelectedItem().toString().length() != 0)
                 || (txtTelephone.getText().toString().length() != 0)
                 || (txtFax.getText().toString().length() != 0)
@@ -1013,7 +1024,7 @@ public class AddCustomerActivity extends Activity implements LocationListener {
                                 address = address.trim();
                                 txtAddress.setText(address);
                                 if (!txtArea.getText().toString().isEmpty()) {
-                                    if (!txtTown.getText().toString().isEmpty()) {
+                                    if (!selectedTown.isEmpty()) {
                                         if (!txtDistrict.getSelectedItem().toString().contentEquals("Select District..")) {
                                             if (!txtTelephone.getText().toString().isEmpty()) {
                                                 if (!sCustomerStatus.getSelectedItem().toString().contentEquals("Select Customer Status..")) {
@@ -1420,6 +1431,7 @@ public class AddCustomerActivity extends Activity implements LocationListener {
         txtAddress.setText("");
         txtArea.setText("");
         txtTown.setText("");
+        selectedTown = "";
         // txtDistrict .getSelectedItem().t;
         txtTelephone.setText("");
         txtFax.setText("");
@@ -1544,95 +1556,57 @@ public class AddCustomerActivity extends Activity implements LocationListener {
 
     }
 
-    public class InsertDistrictAndTownTask extends AsyncTask<Void, Void, Void> {
 
-        private final Context context;
-
-        District district;
-        Town town;
-        ProgressDialog dialog;
+    private void addDistrict(){
+        District district = new District(this);
+        ArrayList<DistrictEntity> districtsList = new  ArrayList<DistrictEntity>();
+        districtsList = district.getAllDistricts();
 
 
-        public InsertDistrictAndTownTask(Context context) {
-            this.context = context;
+        DistrictSpinnerAdapter adapter = new DistrictSpinnerAdapter(this, R.layout.test_spinner,districtsList);
 
-            district = new District(context);
-            town =  new Town(context);
+        txtDistrict.setAdapter(adapter);
 
-        }
+        txtDistrict.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener(){
+            public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
 
-        @Override
-        protected void onPreExecute() {
-            try {
-                dialog = new ProgressDialog(context);
-                dialog.setCancelable(false);
-                dialog.setMessage("Fetching User Data from Server...");
-                dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-                dialog.setProgress(0);
+                DistrictEntity districtEntity = (DistrictEntity) parent.getItemAtPosition(pos);
 
-                dialog.setMax(100);
-                dialog.show();
-            } catch (Exception e) {
-                dialog.dismiss();
+                addTowns(districtEntity.getDistrictID());
+
             }
 
-        }
+            public void onNothingSelected(AdapterView<?> parent) {
 
-        protected void onProgressUpdate(Void... progress) {
-        }
-
-        protected void onPostExecute(Void returnCode) {
-            dialog.dismiss();
-
-        }
-
-        @Override
-        protected Void doInBackground(Void... params) {
-             if(!district.checkDistrictAvalability()){
-
-                /* district.insert_District(1,"Gampaha");
-
-                 town.openWritableDatabase();
-                 town.insert_Town(1,"Negombo",1);
-                 town.closeDatabase();*/
-
-                 try {
-                     JSONArray m_jArry = new JSONArray(loadJSONFromAsset());
-
-
-
-
-                 } catch (JSONException e) {
-                     e.printStackTrace();
-                 }
-
-
-
-
-             }else {
-
-             }
-
-            return null;
-        }
+            }
+        });
 
 
     }
 
-    public String loadJSONFromAsset() {
-        String json = null;
-        try {
-            InputStream is = this.getAssets().open("districtlist.json");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-            json = new String(buffer, "UTF-8");
-        } catch (IOException ex) {
-            ex.printStackTrace();
-            return null;
+    private void addTowns(int dID){
+        Town town = new Town(this);
+        ArrayList<TownEntity> townList = new  ArrayList<TownEntity>();
+        townList = town.geTownsToDistrict(dID);
+        ArrayList<String> townNameList = new  ArrayList<String>();
+        for (TownEntity item : townList) {
+            townNameList.add(item.getTown());
         }
-        return json;
+        ArrayAdapter<String> townAdapterList = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, townNameList);
+        txtTown.setAdapter(townAdapterList);
+        txtTown.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                selectedTown = parent.getItemAtPosition(position).toString();
+
+
+            }
+        });
+
+
     }
+
+
+
 
 }

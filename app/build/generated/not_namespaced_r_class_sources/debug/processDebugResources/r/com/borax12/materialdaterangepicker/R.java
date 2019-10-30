@@ -142,15 +142,15 @@ public final class R {
         public static final int separator_end = 0x7f08022f;
         public static final int start_date_group = 0x7f080247;
         public static final int tabHost = 0x7f08024d;
-        public static final int time_display = 0x7f0802b4;
-        public static final int time_display_background = 0x7f0802b5;
-        public static final int time_display_background_end = 0x7f0802b6;
-        public static final int time_display_end = 0x7f0802b7;
-        public static final int time_picker = 0x7f0802b8;
-        public static final int time_picker_dialog = 0x7f0802b9;
-        public static final int time_picker_end = 0x7f0802ba;
-        public static final int time_picker_header = 0x7f0802bb;
-        public static final int time_picker_header_end = 0x7f0802bc;
+        public static final int time_display = 0x7f0802b5;
+        public static final int time_display_background = 0x7f0802b6;
+        public static final int time_display_background_end = 0x7f0802b7;
+        public static final int time_display_end = 0x7f0802b8;
+        public static final int time_picker = 0x7f0802b9;
+        public static final int time_picker_dialog = 0x7f0802ba;
+        public static final int time_picker_end = 0x7f0802bb;
+        public static final int time_picker_header = 0x7f0802bc;
+        public static final int time_picker_header_end = 0x7f0802bd;
     }
     public static final class layout {
         private layout() {}

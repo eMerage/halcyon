@@ -387,6 +387,7 @@ public class Itinerary {
         String itinararyDate = "";
         final String query = "SELECT  " + KEY_DATE + " FROM " + TABLE_NAME+" where " + KEY_ROW_ID + " ='" + id + "' ";
         Cursor cursor = database.rawQuery(query, null);
+
        // ArrayList<String> districtList = new ArrayList<String>();
 
         cursor.moveToFirst();

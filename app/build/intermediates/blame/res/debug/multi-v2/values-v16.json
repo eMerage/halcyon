@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Project\\Android\\halcyon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "E:\\Project\\Android\\CBHalcyon - New\\App 1\\halcyon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\3ccd1d3f11f0cf418118aa91c1ad06bb\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Himanshu Emerge\\.gradle\\caches\\transforms-2\\files-2.1\\a17bb23937ee1d88378d98ee3babca79\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,26 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\f40c40c3f6e5990eea0800e3fabb2663\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "4,7,10,13",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "197,436,569,688",
-                        "endLines": "4,9,12,15",
-                        "endColumns": "97,12,12,12",
-                        "endOffsets": "290,564,683,800"
-                    },
-                    "to": {
-                        "startLines": "3,8,11,14",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "121,392,525,644",
-                        "endLines": "3,10,13,16",
-                        "endColumns": "97,12,12,12",
-                        "endOffsets": "214,520,639,756"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Himanshu\\.gradle\\caches\\transforms-2\\files-2.1\\6bf65060fd8c7adffef9e4e87745a980\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Himanshu Emerge\\.gradle\\caches\\transforms-2\\files-2.1\\2efe2ad4962b6e80a32836c4c366dc62\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -49,6 +30,25 @@
                         "endLines": "7",
                         "endColumns": "12",
                         "endOffsets": "387"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Himanshu Emerge\\.gradle\\caches\\transforms-2\\files-2.1\\6e3d969be04bff725317b2f29a3c6b20\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "4,7,10,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "197,436,569,688",
+                        "endLines": "4,9,12,15",
+                        "endColumns": "97,12,12,12",
+                        "endOffsets": "290,564,683,800"
+                    },
+                    "to": {
+                        "startLines": "3,8,11,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "121,392,525,644",
+                        "endLines": "3,10,13,16",
+                        "endColumns": "97,12,12,12",
+                        "endOffsets": "214,520,639,756"
                     }
                 }
             ]
